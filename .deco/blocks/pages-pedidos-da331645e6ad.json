@@ -1,0 +1,1 @@
+{"name":"Pedidos","path":"/conta/pedidos","sections":[{"__resolveType":"Baw Header"},{"url":"/account#/orders","title":"Pedidos","__resolveType":"site/sections/AuthIframe.tsx"},{"__resolveType":"Footer-Baw"},{"__resolveType":"Default Theme"}],"__resolveType":"$live/pages/LivePage.tsx"}

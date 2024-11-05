@@ -1,0 +1,1 @@
+{"name":"TEST - global search","path":"/_live/workbench/sections/test---global-search@Global","sections":[{"title":"Resultados de sua busca","products":{"count":4,"query":" ","__resolveType":"deco-sites/std/functions/vtexProductList.ts"},"__resolveType":"site/sections/ProductShelf.tsx"}],"__resolveType":"$live/pages/LivePage.tsx"}

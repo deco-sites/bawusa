@@ -1,0 +1,481 @@
+{
+  "name": "Categories",
+  "path": "/*",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "website/matchers/never.ts"
+        },
+        "value": [
+          {
+            "__resolveType": "Default Theme"
+          },
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "page": {
+              "sort": "price:desc",
+              "count": 12,
+              "fuzzy": "automatic",
+              "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+              "selectedFacets": [],
+              "hideUnavailableItems": true
+            },
+            "__resolveType": "site/sections/SEOPLPBaw.tsx"
+          },
+          {
+            "variants": [
+              {
+                "rule": {
+                  "name": "newGtmCookie",
+                  "value": "1",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "trackingIds": [
+                    " GTM-MK5SQ692"
+                  ],
+                  "__resolveType": "deco-sites/std/sections/Analytics.tsx",
+                  "googleAnalyticsIds": [],
+                  "dangerouslyRunOnMainThread": true
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "GTM"
+                }
+              }
+            ],
+            "__resolveType": "website/flags/multivariate/section.ts"
+          },
+          {
+            "page": {
+              "count": 12,
+              "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+              "hideUnavailableItems": false
+            },
+            "banners": [
+              {
+                "image": {},
+                "title": "Camisas",
+                "matcher": "/baw/vestuario/partes-de-cima/camisas*",
+                "subtitle": "Camisas para todos os estilos e tribos, porque o que importa é a sua personalidade e estilo. As camisas foram feitas para você que busca peças versáteis e práticas. Com fechamento frontal em botão, você tem muitas possibilidades para usar sua camisa como bem entender."
+              },
+              {
+                "image": {},
+                "title": "jaquetas",
+                "matcher": "/baw/vestuario/partes-de-cima/jaquetas*",
+                "subtitle": "Busca praticidade na hora de se vestir naqueles dias mais frios? Então tá no lugar certo! Chega mais para ver as opções de jaqueta Baw®️ e ficar muito quentinho, seja para qual rolê for."
+              },
+              {
+                "image": {
+                  "width": 1440,
+                  "height": 262,
+                  "widthMobile": 775,
+                  "heightMobile": 141
+                },
+                "title": "Camisetas",
+                "matcher": "/baw/vestuario/partes-de-cima/camisetas/*",
+                "subtitle": "Procurando aquela peita para qualquer ocasião? Aqui na seleção da Baw®️, você encontra modelos incríveis dos mais basiquinhos às opções cheias de estampa. O difícil vai ser escolher só uma, confira!"
+              },
+              {
+                "image": {},
+                "title": "moletons",
+                "matcher": "baw/vestuario/partes-de-cima/moletons*",
+                "subtitle": "Tá sentindo esse ventinho gelado? Quer dizer que tá na hora da estrela da vez: o moletom. Vem cá conferir nossas opções para chegar cheio de estilo no rolê!"
+              },
+              {
+                "image": {},
+                "title": "Calças",
+                "matcher": "/baw/vestuario/partes-de-baixo/calcas*",
+                "subtitle": "Calças são nossas fiéis companheiras, seja no verão ou inverno: essas queridinhas entregam looks incríveis. Se liga na seleção exclusiva de calças Baw®️!"
+              },
+              {
+                "image": {},
+                "title": "shorts",
+                "matcher": "/baw/vestuario/partes-de-baixo/shorts*",
+                "subtitle": "Os shorts são peças versáteis e permitem combinações com muitos estilos. Você pode escolher entre bermudas, biker, cargo, moletom e mais. Vem cá conferir nossos modelos para você manter o conforto e a personalidade que merece:"
+              },
+              {
+                "image": {
+                  "alt": "Vestuário",
+                  "width": 1400,
+                  "height": 262,
+                  "widthMobile": 775,
+                  "heightMobile": 141
+                },
+                "matcher": "/baw/vestuario"
+              },
+              {
+                "image": {},
+                "title": "Bonés",
+                "matcher": "/baw/acessorios/headwear/bones*",
+                "subtitle": "Os bonés são os acess￳rios que vão acrescentar estilo ao seu look e resolver qualquer bad hair day. Para todas as vibes, eles dão personalidade às peças e complementam o visual.  Existem bonés para você que gosta de opções mais básicas, com bordados discretos e cores neutras, mas também para quem prefere os mais chamativos, coloridos e criativos."
+              },
+              {
+                "image": {},
+                "title": "Chinelos e Slides",
+                "matcher": "/baw/calcados/chinelos*",
+                "subtitle": "Conforto e estilo andam lado a lado! Os chinelos, slides e papetes s￣o os sapatos perfeitos para te acompanhar o dia inteiro e em todas as ocasi￵es: desde ￠ piscina at￩ o passeio no shopping.  Eles ficam ￳timos em quem tem um estilo mais descontra￭do, casual e criativo. Ideal para os dias de calor e para dar cor no restante do look.  S￣o modelos em todas as cores e tamanhos para quem prefere as vers￵es mais abertas e também para quem quer sentir o p￩ mais seguro."
+              },
+              {
+                "image": {
+                  "alt": "custom-sherpa",
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/c6eda022-0e9c-41f0-b644-a0046353c4ea",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/ff7daed7-a7d3-41f9-a383-03165ed57750"
+                },
+                "matcher": "/custom-sherpa"
+              },
+              {
+                "image": {
+                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/f9b86f61-efb5-4fd5-bf4e-6c3a927c0fee",
+                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/2e7a1c50-e441-4015-9c7d-e5cb9c713add"
+                },
+                "matcher": "/drop/chenille"
+              }
+            ],
+            "__resolveType": "site/sections/BannerPLP.tsx"
+          },
+          {
+            "page": {
+              "sort": "release:desc",
+              "@type": "1",
+              "count": 24,
+              "similars": true,
+              "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+              "ignoreUrlPath": false,
+              "selectedFacets": [],
+              "hideUnavailableItems": true
+            },
+            "columns": {},
+            "__resolveType": "site/sections/SearchResult.tsx"
+          },
+          {
+            "page": {
+              "sort": "price:desc",
+              "count": 12,
+              "fuzzy": "automatic",
+              "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+              "selectedFacets": [],
+              "hideUnavailableItems": true
+            },
+            "readMores": [
+              {
+                "content": "<h3><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">Shorts para todos os gostos: veja nossas opções streetwear e genderless</span></strong></h3><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Aqui é o lugar para todo mundo encontrar os shorts preferidos. Além de ter muitos modelos — bermuda, cargo, biker, moletom e beach —, tem diferentes comprimentos e ajustes no corpo. Tudo isso em uma variedade de cores de tirar o fôlego.&nbsp;<strong>Da praia ao rolê</strong>, os shorts da Baw®️ estão prontos para te acompanhar, se liga:</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Bermudas</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Para quem prefere um comprimento maior, as bermudas são a opção ideal. Essa maravilha é unissex e apresenta bolso localizado na frente da peça — perfeito para carregar a carteira, o celular e o que mais couber.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">As bermudas da Baw®️ podem ser encontradas em diversos tecidos: moletom, jeans ou sarja — é só escolher o que mais te agrada!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Shorts cargo</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Versatilidade e conforto em uma única peça é o que define o shorts cargo! Esse modelo apresenta cós com elástico e cordão para ajuste. Também conta com bolsos laterais e frontais, os quais possibilitam transportar os objetos sem precisar carregar bolsa ou pochete, saca?</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Combina muito bem com regata ou com camiseta e ainda tem opções de cores neutras ou coloridas. Aproveite!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Shorts biker</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Essa tendência street e esportiva garantiu seu lugar nas produções descoladas e casuais. O shorts biker é perfeito para o conjunto com os tops ou croppeds, mas você também pode optar por produções com camisa e com blazer, garantindo muito style!</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">A proposta shorts biker com moletom é versátil e atemporal, podendo ser usada para os dias de preguiça e mais casuais. Para dar um up no visual, dá para combinar o shorts biker da Baw®️ com uma camiseta oversized e um blazer por cima — estilo total!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Shorts moletom</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Para quem não abre mão de um look mais quentinho e aconchegante, esse modelo é ideal! O shorts é feito em tecido de moletom e conta com cós de elástico e cordão embutido para ajuste. Tudo para assegurar conforto e estilo na sua produção.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">E aí, é só escolher a cor da vez: branco, preto, bicolor ou colorido. Garanta a sua peça aproveitando nossas condições de pagamento, fechou?</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Beach shorts</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Sabe aquela peça que dá para usar na praia ou no rolê? Então, esse é o beach shorts! Além de conforto e garantia de uma peça bem estilosa, ele é encontrado em cores cheias de estilo, como as vibrantes e neons.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tem como característica o cós com elástico embutido que permite ajuste, além de bolsos laterais com zíper. A etiqueta emborrachada no bolso lateral também traz muita personalidade ao modelo. Aproveite as opções da Baw®️!</span></p><h3>Por que amar os shorts da Baw®️?</h3><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Os shorts da Baw®️ aliam o conforto da peça com muito estilo para a produção! Nossos modelos contam com opções mais básicas e neutras até as mais elaboradas e coloridas. Tem para todo o gosto!</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Se você procura por shorts de qualidade e cheios de personalidade, você vai amar os da Baw®️. São propostas versáteis e que permitem fortalecer o seu estilo com muita praticidade! Vem para o Baw®️ Crew você também!</span></p>",
+                "matcher": "/baw/vestuario/partes-de-baixo/shorts*"
+              },
+              {
+                "content": "<h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\"><span style=\"font-size: 18pt;\" data-mce-style=\"font-size: 18pt;\"><strong>Camiseta Baw®️: conheça nossas peças streetwear e genderless</strong></span></h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tem coisa melhor do que precisar sair de casa e dar de cara com aquela camiseta Baw®️ perfeita para o momento e que combina com tudo? E tem tantos estilos — com certeza, pelo menos um deles vai conquistar seu coração! Esteja pronto para qualquer rolê com as nossas opções de camiseta, se liga só:</span></p><h3><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Camiseta preta e branca básica</strong></span></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Esse é para a galera&nbsp;<span class=\"i vtex-rich-text-0-x-italic vtex-rich-text-0-x-italic--search__seo--text\">old school</span>&nbsp;que acompanha a Baw®️ lá do comecinho: tá tendo versões de camiseta preta e camiseta branca, sim, senhores! E não tem como deixar de lado, né? Essas belezinhas compõem qualquer look, são práticas e ainda deixam a gente um arraso.</span></p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tem para quem gosta de tamanhos maiores ou mesmo croppeds, com frases, logo e desenhos!</span></p><h3><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Camiseta oversized</strong></span></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Falando em tamanhos maiores, pode entrar: camiseta oversized. Essa é ideal para quem não curte aqueles modelos mais justinhos, sabe? Ou seja, ela é o total oposto disso, pode ficar sussa, já que conta com uma forma mais comprida até nas mangas!</span></p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Os modelos variam em cores mais neutras além das coloridonas, sendo o centro de atenção do visual. As versões também são encontradas em manga curta e manga comprida, perfeitas para serem usadas em qualquer clima que estiver fazendo.</span></p><h3><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Camiseta estampada</strong></span></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tava sentindo falta de desenhos divertidos? Calma, justamente para isso, também contamos com camisetas estampadas que estão doidinhas para entrar no seu guarda-roupa. Aí é só combinar com um&nbsp;<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/shorts\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/shorts\">shorts</a>&nbsp;liso e partiu, tá no jeito! Saca só algumas das opções:</span></p><ul style=\"list-style: disc;\" data-mce-style=\"list-style: disc;\"><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Logomania, cheia de logos diversos Baw®️;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Frases divertidas;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span class=\"i vtex-rich-text-0-x-italic vtex-rich-text-0-x-italic--search__seo--text\">Smile</span>;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Skate;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Café;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Arco-íris;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Slogan Baw®️&nbsp;<span class=\"i vtex-rich-text-0-x-italic vtex-rich-text-0-x-italic--search__seo--text\">We make noise, not fashion</span>.</span></li></ul><h3><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Camiseta colorida</strong></span></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Cor é o que não falta nas camisetas Baw®️, dá só uma olhada nas que você encontra por aqui:</span></p><ul><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta rosa;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta laranja;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta roxa;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta turquesa;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta azul-marinho;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta vinho.</span></li></ul><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">E muito mais — dá para até levar uma de cada e aproveitar a opção de parcelamento! O legal é que, tendo os cuidados necessários na hora da lavagem, as cores não desbotam e dão para usar as peças por muito tempo.</span></p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Camiseta manga longa</strong></span></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Bateu aquela friaca, mas não tá a fim de apostar em um&nbsp;<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/moletons\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/moletons\">moletom</a>? De boas, é só optar por uma camiseta manga longa que fica tudo certo. Tem opções em jeans e algodão, de diferentes cores e estampas, é só aproveitar.</span></p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Elas protegem do vento e clima gelado numa boas, mas também podem servir como peça debaixo daquele corta sem nenhum problema!</span></p><h2><span style=\"font-size: 18pt;\" data-mce-style=\"font-size: 18pt;\"><strong>Baw®️: muito mais do que moda!</strong></span></h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Na moral, não tem nada mais da hora do que vestir aquela camiseta que te representa e te faz sentir bem — e é totalmente esse lifestyle que a Baw®️ traz em formato de roupa. Garanta suas peças preferidas para fazer parte desse Crew tão diverso e não deixe de conferir nossa seção de&nbsp;<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/calcas\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/calcas\">calças</a> para garantir o uniforme completo!</span></p>",
+                "matcher": "/baw/vestuario/partes-de-cima/camisetas"
+              },
+              {
+                "content": "<h3><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">Veja os moletons femininos, masculinos e unissex da Baw®️!</span></strong></h3><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Aqui todo mundo encontra um moletom perfeito para chamar de seu. Além de variar no design — com ou sem capuz, com ou sem bolso, diferentes comprimentos —, é claro que dá para encontrar a sua cor favorita na coleção. Do preto e branco ao colorido, o moletom Baw®️ é daqueles que a gente põe e não quer mais tirar, saca só:</span></p><h4><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\"><strong>Moletom careca</strong></span></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Para quem busca um moletom mais básico, o moletom careca encaixa como uma luva. Essa belezinha conta com mangas compridas e nenhuma touca, nem bolsos adicionais: é lisinho mesmo!</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Mas calma: ele compensa na variedade de cores e estampas para conhecer — tem aqueles com frases, desenhos ou mesmo aquele Baw®️ bem lindo estampado!</span></p><h4><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\"><strong>Moletom canguru</strong></span></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Celular, chave, carteira e o que mais couber: dá para guardar tudo isso em um moletom canguru! Esse modelo é perfeito para aqueles dias em que a gente não tá nada a fim de carregar uma bolsa ou pochete por aí. Sabe por quê? Ele conta com um bolso localizado bem na frente da peça — o que deixa seus itens bem protegidos também.</span></p><h4><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom cropped</span></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Quem não abre mão de uma camiseta cropped sabe que quando dá uma esfriada é hora dele brilhar: o moletom cropped! Esse modelo conta com mangas compridas, mas tem um comprimento mais curtinho, geralmente na metade da barriga. Ideal para quem curte um estilo mais sexy — se joga!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom de pelinho</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Sabe aquela peça que é como um abraço? Então, multiplica por dois: esse é o moletom de pelinho. Além do conforto e de garantir uma peça bem quentinha, ela é encontrada em versões cheias de estilo, como em animal print e também colorida.</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom oversized</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Pensou em algo mais larguinho? A gente tem também o amado moletom oversized! Perfeito para quem não gosta de roupa apertada ou mesmo pretende colocar uma camisa por baixo do moletom para ficar mais quentinho — e cheio de estilo.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Aí é só escolher o modelo da vez: liso ou estampado, de cor neutra ou colorida e garantir a peça aproveitando nossos parcelamentos!</span></p><h4><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\"><strong>Moletom preto</strong></span></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Um clássico é um clássico por muitos motivos, né? O moletom preto é um deles, não tem jeito. Para quem está em dúvida em qual começar a investir, essa opção não tem erro. Afinal combina com tudo, é encontrado em diferentes estilos e não suja com facilidade, demorou?</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom branco</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Outro que está em alta é o moletom branco e também o off-white — queridinhos para quem quer garantir um visual bem clean, mas, mesmo assim, trazer aquela peça de qualidade para a jogada, sabe? Dá para aproveitar a trend logomania, aqueles com frases ou desenhos divertidos.</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom colorido</span></strong></h4><p>Um toque de luz para o seu visual pode vir com o moletom colorido no look, é claro! Tem versões de uma só cor, como:</p><ul class=\"list-disc\"><li>Laranja;</li><li>Lilás;</li><li>Rosa;</li><li>Vinho;</li><li>Marrom;</li><li>Verde.</li><li>Ainda, dá para encontrar moletons coloridos que misturam diferentes tons — aproveite!</li></ul><h3><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Inspirações de looks com moletom Baw®️</strong></span></h3><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Agora que você já conhece toda a nossa seleção de moletons, a gente te ajuda a pensar em como combinar essas belezinhas, né? Se liga</span></p>",
+                "matcher": "/baw/vestuario/partes-de-cima/moletons/*"
+              }
+            ],
+            "__resolveType": "site/sections/ReadMore.tsx"
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          }
+        ]
+      },
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "__resolveType": "Default Theme"
+          },
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "page": {
+              "sort": "price:desc",
+              "count": 12,
+              "fuzzy": "automatic",
+              "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+              "selectedFacets": [],
+              "hideUnavailableItems": true
+            },
+            "__resolveType": "site/sections/SEOPLPBaw.tsx"
+          },
+          {
+            "variants": [
+              {
+                "rule": {
+                  "name": "newGtmCookie",
+                  "value": "1",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "trackingIds": [
+                    " GTM-MK5SQ692"
+                  ],
+                  "__resolveType": "deco-sites/std/sections/Analytics.tsx",
+                  "googleAnalyticsIds": [],
+                  "dangerouslyRunOnMainThread": true
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "GTM"
+                }
+              }
+            ],
+            "__resolveType": "website/flags/multivariate/section.ts"
+          },
+          {
+            "variants": [
+              {
+                "rule": {
+                  "end": "2024-08-22T12:00:00.000Z",
+                  "start": "2024-08-22T01:00:00.000Z",
+                  "__resolveType": "$live/matchers/MatchDate.ts"
+                },
+                "value": {
+                  "page": {
+                    "count": 12,
+                    "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+                    "hideUnavailableItems": false
+                  },
+                  "banners": [
+                    {
+                      "image": {},
+                      "title": "Camisas",
+                      "matcher": "/baw/vestuario/partes-de-cima/camisas*",
+                      "subtitle": "Camisas para todos os estilos e tribos, porque o que importa é a sua personalidade e estilo. As camisas foram feitas para você que busca peças versáteis e práticas. Com fechamento frontal em botão, você tem muitas possibilidades para usar sua camisa como bem entender."
+                    },
+                    {
+                      "image": {},
+                      "title": "jaquetas",
+                      "matcher": "/baw/vestuario/partes-de-cima/jaquetas*",
+                      "subtitle": "Busca praticidade na hora de se vestir naqueles dias mais frios? Então tá no lugar certo! Chega mais para ver as opções de jaqueta Baw®️ e ficar muito quentinho, seja para qual rolê for."
+                    },
+                    {
+                      "image": {
+                        "width": 1440,
+                        "height": 262,
+                        "widthMobile": 775,
+                        "heightMobile": 141
+                      },
+                      "title": "Camisetas",
+                      "matcher": "/baw/vestuario/partes-de-cima/camisetas/*",
+                      "subtitle": "Procurando aquela peita para qualquer ocasião? Aqui na seleção da Baw®️, você encontra modelos incríveis dos mais basiquinhos às opções cheias de estampa. O difícil vai ser escolher só uma, confira!"
+                    },
+                    {
+                      "image": {},
+                      "title": "moletons",
+                      "matcher": "baw/vestuario/partes-de-cima/moletons*",
+                      "subtitle": "Tá sentindo esse ventinho gelado? Quer dizer que tá na hora da estrela da vez: o moletom. Vem cá conferir nossas opções para chegar cheio de estilo no rolê!"
+                    },
+                    {
+                      "image": {},
+                      "title": "Calças",
+                      "matcher": "/baw/vestuario/partes-de-baixo/calcas*",
+                      "subtitle": "Calças são nossas fiéis companheiras, seja no verão ou inverno: essas queridinhas entregam looks incríveis. Se liga na seleção exclusiva de calças Baw®️!"
+                    },
+                    {
+                      "image": {},
+                      "title": "shorts",
+                      "matcher": "/baw/vestuario/partes-de-baixo/shorts*",
+                      "subtitle": "Os shorts são peças versáteis e permitem combinações com muitos estilos. Você pode escolher entre bermudas, biker, cargo, moletom e mais. Vem cá conferir nossos modelos para você manter o conforto e a personalidade que merece:"
+                    },
+                    {
+                      "image": {
+                        "alt": "Vestuário",
+                        "width": 1400,
+                        "height": 262,
+                        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/b5dec3c0-735d-4bd0-80f3-8c11c4c89288",
+                        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/1233b8c5-cbdd-4250-9f8d-26d9ae2150e2",
+                        "widthMobile": 775,
+                        "heightMobile": 141
+                      },
+                      "matcher": "/baw/vestuario"
+                    },
+                    {
+                      "image": {},
+                      "title": "Bonés",
+                      "matcher": "/baw/acessorios/headwear/bones*",
+                      "subtitle": "Os bonés são os acess￳rios que vão acrescentar estilo ao seu look e resolver qualquer bad hair day. Para todas as vibes, eles dão personalidade às peças e complementam o visual.  Existem bonés para você que gosta de opções mais básicas, com bordados discretos e cores neutras, mas também para quem prefere os mais chamativos, coloridos e criativos."
+                    },
+                    {
+                      "image": {},
+                      "title": "Chinelos e Slides",
+                      "matcher": "/baw/calcados/chinelos*",
+                      "subtitle": "Conforto e estilo andam lado a lado! Os chinelos, slides e papetes s￣o os sapatos perfeitos para te acompanhar o dia inteiro e em todas as ocasi￵es: desde ￠ piscina at￩ o passeio no shopping.  Eles ficam ￳timos em quem tem um estilo mais descontra￭do, casual e criativo. Ideal para os dias de calor e para dar cor no restante do look.  S￣o modelos em todas as cores e tamanhos para quem prefere as vers￵es mais abertas e também para quem quer sentir o p￩ mais seguro."
+                    },
+                    {
+                      "image": {
+                        "alt": "custom-sherpa",
+                        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/c6eda022-0e9c-41f0-b644-a0046353c4ea",
+                        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/ff7daed7-a7d3-41f9-a383-03165ed57750"
+                      },
+                      "matcher": "/custom-sherpa"
+                    },
+                    {
+                      "image": {
+                        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/f9b86f61-efb5-4fd5-bf4e-6c3a927c0fee",
+                        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/2e7a1c50-e441-4015-9c7d-e5cb9c713add"
+                      },
+                      "matcher": "/drop/chenille"
+                    }
+                  ],
+                  "__resolveType": "site/sections/BannerPLP.tsx"
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "page": {
+                    "count": 12,
+                    "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+                    "hideUnavailableItems": false
+                  },
+                  "banners": [
+                    {
+                      "image": {},
+                      "title": "Camisas",
+                      "matcher": "/baw/vestuario/partes-de-cima/camisas*",
+                      "subtitle": "Camisas para todos os estilos e tribos, porque o que importa é a sua personalidade e estilo. As camisas foram feitas para você que busca peças versáteis e práticas. Com fechamento frontal em botão, você tem muitas possibilidades para usar sua camisa como bem entender."
+                    },
+                    {
+                      "image": {},
+                      "title": "jaquetas",
+                      "matcher": "/baw/vestuario/partes-de-cima/jaquetas*",
+                      "subtitle": "Busca praticidade na hora de se vestir naqueles dias mais frios? Então tá no lugar certo! Chega mais para ver as opções de jaqueta Baw®️ e ficar muito quentinho, seja para qual rolê for."
+                    },
+                    {
+                      "image": {
+                        "width": 1440,
+                        "height": 262,
+                        "widthMobile": 775,
+                        "heightMobile": 141
+                      },
+                      "title": "Camisetas",
+                      "matcher": "/baw/vestuario/partes-de-cima/camisetas/*",
+                      "subtitle": "Procurando aquela peita para qualquer ocasião? Aqui na seleção da Baw®️, você encontra modelos incríveis dos mais basiquinhos às opções cheias de estampa. O difícil vai ser escolher só uma, confira!"
+                    },
+                    {
+                      "image": {},
+                      "title": "moletons",
+                      "matcher": "baw/vestuario/partes-de-cima/moletons*",
+                      "subtitle": "Tá sentindo esse ventinho gelado? Quer dizer que tá na hora da estrela da vez: o moletom. Vem cá conferir nossas opções para chegar cheio de estilo no rolê!"
+                    },
+                    {
+                      "image": {},
+                      "title": "Calças",
+                      "matcher": "/baw/vestuario/partes-de-baixo/calcas*",
+                      "subtitle": "Calças são nossas fiéis companheiras, seja no verão ou inverno: essas queridinhas entregam looks incríveis. Se liga na seleção exclusiva de calças Baw®️!"
+                    },
+                    {
+                      "image": {},
+                      "title": "shorts",
+                      "matcher": "/baw/vestuario/partes-de-baixo/shorts*",
+                      "subtitle": "Os shorts são peças versáteis e permitem combinações com muitos estilos. Você pode escolher entre bermudas, biker, cargo, moletom e mais. Vem cá conferir nossos modelos para você manter o conforto e a personalidade que merece:"
+                    },
+                    {
+                      "image": {
+                        "alt": "Vestuário",
+                        "width": 1400,
+                        "height": 262,
+                        "widthMobile": 775,
+                        "heightMobile": 141
+                      },
+                      "matcher": "/baw/vestuario"
+                    },
+                    {
+                      "image": {},
+                      "title": "Bonés",
+                      "matcher": "/baw/acessorios/headwear/bones*",
+                      "subtitle": "Os bonés são os acess￳rios que vão acrescentar estilo ao seu look e resolver qualquer bad hair day. Para todas as vibes, eles dão personalidade às peças e complementam o visual.  Existem bonés para você que gosta de opções mais básicas, com bordados discretos e cores neutras, mas também para quem prefere os mais chamativos, coloridos e criativos."
+                    },
+                    {
+                      "image": {},
+                      "title": "Chinelos e Slides",
+                      "matcher": "/baw/calcados/chinelos*",
+                      "subtitle": "Conforto e estilo andam lado a lado! Os chinelos, slides e papetes s￣o os sapatos perfeitos para te acompanhar o dia inteiro e em todas as ocasi￵es: desde ￠ piscina at￩ o passeio no shopping.  Eles ficam ￳timos em quem tem um estilo mais descontra￭do, casual e criativo. Ideal para os dias de calor e para dar cor no restante do look.  S￣o modelos em todas as cores e tamanhos para quem prefere as vers￵es mais abertas e também para quem quer sentir o p￩ mais seguro."
+                    },
+                    {
+                      "image": {
+                        "alt": "custom-sherpa",
+                        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/c6eda022-0e9c-41f0-b644-a0046353c4ea",
+                        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/ff7daed7-a7d3-41f9-a383-03165ed57750"
+                      },
+                      "matcher": "/custom-sherpa"
+                    },
+                    {
+                      "image": {
+                        "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/f9b86f61-efb5-4fd5-bf4e-6c3a927c0fee",
+                        "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/2e7a1c50-e441-4015-9c7d-e5cb9c713add"
+                      },
+                      "matcher": "/drop/chenille"
+                    }
+                  ],
+                  "__resolveType": "site/sections/BannerPLP.tsx"
+                }
+              }
+            ],
+            "__resolveType": "website/flags/multivariate/section.ts"
+          },
+          {
+            "page": {
+              "sort": "release:desc",
+              "@type": "1",
+              "count": 24,
+              "similars": true,
+              "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+              "ignoreUrlPath": false,
+              "selectedFacets": [],
+              "hideUnavailableItems": true
+            },
+            "columns": {},
+            "__resolveType": "site/sections/SearchResult.tsx"
+          },
+          {
+            "page": {
+              "sort": "price:desc",
+              "count": 12,
+              "fuzzy": "automatic",
+              "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+              "selectedFacets": [],
+              "hideUnavailableItems": true
+            },
+            "readMores": [
+              {
+                "content": "<h3><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">Shorts para todos os gostos: veja nossas opções streetwear e genderless</span></strong></h3><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Aqui é o lugar para todo mundo encontrar os shorts preferidos. Além de ter muitos modelos — bermuda, cargo, biker, moletom e beach —, tem diferentes comprimentos e ajustes no corpo. Tudo isso em uma variedade de cores de tirar o fôlego.&nbsp;<strong>Da praia ao rolê</strong>, os shorts da Baw®️ estão prontos para te acompanhar, se liga:</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Bermudas</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Para quem prefere um comprimento maior, as bermudas são a opção ideal. Essa maravilha é unissex e apresenta bolso localizado na frente da peça — perfeito para carregar a carteira, o celular e o que mais couber.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">As bermudas da Baw®️ podem ser encontradas em diversos tecidos: moletom, jeans ou sarja — é só escolher o que mais te agrada!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Shorts cargo</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Versatilidade e conforto em uma única peça é o que define o shorts cargo! Esse modelo apresenta cós com elástico e cordão para ajuste. Também conta com bolsos laterais e frontais, os quais possibilitam transportar os objetos sem precisar carregar bolsa ou pochete, saca?</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Combina muito bem com regata ou com camiseta e ainda tem opções de cores neutras ou coloridas. Aproveite!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Shorts biker</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Essa tendência street e esportiva garantiu seu lugar nas produções descoladas e casuais. O shorts biker é perfeito para o conjunto com os tops ou croppeds, mas você também pode optar por produções com camisa e com blazer, garantindo muito style!</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">A proposta shorts biker com moletom é versátil e atemporal, podendo ser usada para os dias de preguiça e mais casuais. Para dar um up no visual, dá para combinar o shorts biker da Baw®️ com uma camiseta oversized e um blazer por cima — estilo total!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Shorts moletom</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Para quem não abre mão de um look mais quentinho e aconchegante, esse modelo é ideal! O shorts é feito em tecido de moletom e conta com cós de elástico e cordão embutido para ajuste. Tudo para assegurar conforto e estilo na sua produção.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">E aí, é só escolher a cor da vez: branco, preto, bicolor ou colorido. Garanta a sua peça aproveitando nossas condições de pagamento, fechou?</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Beach shorts</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Sabe aquela peça que dá para usar na praia ou no rolê? Então, esse é o beach shorts! Além de conforto e garantia de uma peça bem estilosa, ele é encontrado em cores cheias de estilo, como as vibrantes e neons.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tem como característica o cós com elástico embutido que permite ajuste, além de bolsos laterais com zíper. A etiqueta emborrachada no bolso lateral também traz muita personalidade ao modelo. Aproveite as opções da Baw®️!</span></p><h3>Por que amar os shorts da Baw®️?</h3><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Os shorts da Baw®️ aliam o conforto da peça com muito estilo para a produção! Nossos modelos contam com opções mais básicas e neutras até as mais elaboradas e coloridas. Tem para todo o gosto!</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Se você procura por shorts de qualidade e cheios de personalidade, você vai amar os da Baw®️. São propostas versáteis e que permitem fortalecer o seu estilo com muita praticidade! Vem para o Baw®️ Crew você também!</span></p>",
+                "matcher": "/baw/vestuario/partes-de-baixo/shorts*"
+              },
+              {
+                "content": "<h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\"><span style=\"font-size: 18pt;\" data-mce-style=\"font-size: 18pt;\"><strong>Camiseta Baw®️: conheça nossas peças streetwear e genderless</strong></span></h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tem coisa melhor do que precisar sair de casa e dar de cara com aquela camiseta Baw®️ perfeita para o momento e que combina com tudo? E tem tantos estilos — com certeza, pelo menos um deles vai conquistar seu coração! Esteja pronto para qualquer rolê com as nossas opções de camiseta, se liga só:</span></p><h3><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Camiseta preta e branca básica</strong></span></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Esse é para a galera&nbsp;<span class=\"i vtex-rich-text-0-x-italic vtex-rich-text-0-x-italic--search__seo--text\">old school</span>&nbsp;que acompanha a Baw®️ lá do comecinho: tá tendo versões de camiseta preta e camiseta branca, sim, senhores! E não tem como deixar de lado, né? Essas belezinhas compõem qualquer look, são práticas e ainda deixam a gente um arraso.</span></p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tem para quem gosta de tamanhos maiores ou mesmo croppeds, com frases, logo e desenhos!</span></p><h3><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Camiseta oversized</strong></span></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Falando em tamanhos maiores, pode entrar: camiseta oversized. Essa é ideal para quem não curte aqueles modelos mais justinhos, sabe? Ou seja, ela é o total oposto disso, pode ficar sussa, já que conta com uma forma mais comprida até nas mangas!</span></p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Os modelos variam em cores mais neutras além das coloridonas, sendo o centro de atenção do visual. As versões também são encontradas em manga curta e manga comprida, perfeitas para serem usadas em qualquer clima que estiver fazendo.</span></p><h3><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Camiseta estampada</strong></span></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tava sentindo falta de desenhos divertidos? Calma, justamente para isso, também contamos com camisetas estampadas que estão doidinhas para entrar no seu guarda-roupa. Aí é só combinar com um&nbsp;<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/shorts\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/shorts\">shorts</a>&nbsp;liso e partiu, tá no jeito! Saca só algumas das opções:</span></p><ul style=\"list-style: disc;\" data-mce-style=\"list-style: disc;\"><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Logomania, cheia de logos diversos Baw®️;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Frases divertidas;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span class=\"i vtex-rich-text-0-x-italic vtex-rich-text-0-x-italic--search__seo--text\">Smile</span>;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Skate;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Café;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Arco-íris;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Slogan Baw®️&nbsp;<span class=\"i vtex-rich-text-0-x-italic vtex-rich-text-0-x-italic--search__seo--text\">We make noise, not fashion</span>.</span></li></ul><h3><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Camiseta colorida</strong></span></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Cor é o que não falta nas camisetas Baw®️, dá só uma olhada nas que você encontra por aqui:</span></p><ul><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta rosa;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta laranja;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta roxa;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta turquesa;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta azul-marinho;</span></li><li class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta vinho.</span></li></ul><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">E muito mais — dá para até levar uma de cada e aproveitar a opção de parcelamento! O legal é que, tendo os cuidados necessários na hora da lavagem, as cores não desbotam e dão para usar as peças por muito tempo.</span></p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Camiseta manga longa</strong></span></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Bateu aquela friaca, mas não tá a fim de apostar em um&nbsp;<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/moletons\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/moletons\">moletom</a>? De boas, é só optar por uma camiseta manga longa que fica tudo certo. Tem opções em jeans e algodão, de diferentes cores e estampas, é só aproveitar.</span></p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Elas protegem do vento e clima gelado numa boas, mas também podem servir como peça debaixo daquele corta sem nenhum problema!</span></p><h2><span style=\"font-size: 18pt;\" data-mce-style=\"font-size: 18pt;\"><strong>Baw®️: muito mais do que moda!</strong></span></h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Na moral, não tem nada mais da hora do que vestir aquela camiseta que te representa e te faz sentir bem — e é totalmente esse lifestyle que a Baw®️ traz em formato de roupa. Garanta suas peças preferidas para fazer parte desse Crew tão diverso e não deixe de conferir nossa seção de&nbsp;<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/calcas\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/calcas\">calças</a> para garantir o uniforme completo!</span></p>",
+                "matcher": "/baw/vestuario/partes-de-cima/camisetas"
+              },
+              {
+                "content": "<h3><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">Veja os moletons femininos, masculinos e unissex da Baw®️!</span></strong></h3><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Aqui todo mundo encontra um moletom perfeito para chamar de seu. Além de variar no design — com ou sem capuz, com ou sem bolso, diferentes comprimentos —, é claro que dá para encontrar a sua cor favorita na coleção. Do preto e branco ao colorido, o moletom Baw®️ é daqueles que a gente põe e não quer mais tirar, saca só:</span></p><h4><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\"><strong>Moletom careca</strong></span></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Para quem busca um moletom mais básico, o moletom careca encaixa como uma luva. Essa belezinha conta com mangas compridas e nenhuma touca, nem bolsos adicionais: é lisinho mesmo!</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Mas calma: ele compensa na variedade de cores e estampas para conhecer — tem aqueles com frases, desenhos ou mesmo aquele Baw®️ bem lindo estampado!</span></p><h4><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\"><strong>Moletom canguru</strong></span></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Celular, chave, carteira e o que mais couber: dá para guardar tudo isso em um moletom canguru! Esse modelo é perfeito para aqueles dias em que a gente não tá nada a fim de carregar uma bolsa ou pochete por aí. Sabe por quê? Ele conta com um bolso localizado bem na frente da peça — o que deixa seus itens bem protegidos também.</span></p><h4><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom cropped</span></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Quem não abre mão de uma camiseta cropped sabe que quando dá uma esfriada é hora dele brilhar: o moletom cropped! Esse modelo conta com mangas compridas, mas tem um comprimento mais curtinho, geralmente na metade da barriga. Ideal para quem curte um estilo mais sexy — se joga!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom de pelinho</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Sabe aquela peça que é como um abraço? Então, multiplica por dois: esse é o moletom de pelinho. Além do conforto e de garantir uma peça bem quentinha, ela é encontrada em versões cheias de estilo, como em animal print e também colorida.</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom oversized</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Pensou em algo mais larguinho? A gente tem também o amado moletom oversized! Perfeito para quem não gosta de roupa apertada ou mesmo pretende colocar uma camisa por baixo do moletom para ficar mais quentinho — e cheio de estilo.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Aí é só escolher o modelo da vez: liso ou estampado, de cor neutra ou colorida e garantir a peça aproveitando nossos parcelamentos!</span></p><h4><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\"><strong>Moletom preto</strong></span></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Um clássico é um clássico por muitos motivos, né? O moletom preto é um deles, não tem jeito. Para quem está em dúvida em qual começar a investir, essa opção não tem erro. Afinal combina com tudo, é encontrado em diferentes estilos e não suja com facilidade, demorou?</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom branco</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Outro que está em alta é o moletom branco e também o off-white — queridinhos para quem quer garantir um visual bem clean, mas, mesmo assim, trazer aquela peça de qualidade para a jogada, sabe? Dá para aproveitar a trend logomania, aqueles com frases ou desenhos divertidos.</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom colorido</span></strong></h4><p>Um toque de luz para o seu visual pode vir com o moletom colorido no look, é claro! Tem versões de uma só cor, como:</p><ul class=\"list-disc\"><li>Laranja;</li><li>Lilás;</li><li>Rosa;</li><li>Vinho;</li><li>Marrom;</li><li>Verde.</li><li>Ainda, dá para encontrar moletons coloridos que misturam diferentes tons — aproveite!</li></ul><h3><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\"><strong>Inspirações de looks com moletom Baw®️</strong></span></h3><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Agora que você já conhece toda a nossa seleção de moletons, a gente te ajuda a pensar em como combinar essas belezinhas, né? Se liga</span></p>",
+                "matcher": "/baw/vestuario/partes-de-cima/moletons/*"
+              }
+            ],
+            "__resolveType": "site/sections/ReadMore.tsx"
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "$live/pages/LivePage.tsx"
+}

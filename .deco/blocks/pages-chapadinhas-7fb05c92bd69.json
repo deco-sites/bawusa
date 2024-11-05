@@ -1,0 +1,183 @@
+{
+  "name": "Chapadinhas",
+  "path": "/drop/lolife-teste",
+  "sections": [
+    {
+      "__resolveType": "Baw Header"
+    },
+    {
+      "__resolveType": "GTM"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "514"
+          }
+        ]
+      },
+      "title": "Lo Life",
+      "canonical": "https://www.bawclothing.com.br/drop/lo-life",
+      "description": "Lo Life",
+      "__resolveType": "site/sections/SEOPLPBaw.tsx",
+      "titleTemplate": "Lo Life"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "ordem": "Banner/Cards",
+      "banners": [
+        {
+          "cards": {
+            "images": []
+          },
+          "matcher": "/sherpa-drop",
+          "bannerFirst": {
+            "alt": "/sherpa-drop",
+            "href": "/sherpa-drop",
+            "type": "image",
+            "Position": "Left",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/3f4be1f5-a990-43aa-9ba6-2093c3207828",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/6fe6bae9-fe38-40cd-805e-9df22152622e"
+          },
+          "borderRadius": {
+            "mobile": "none",
+            "desktop": "none"
+          }
+        }
+      ],
+      "colorRed": false,
+      "bannerFirst": {
+        "alt": "BAW X CHAPADINHAS",
+        "href": "#",
+        "type": "image",
+        "Position": "Rigth",
+        "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/9b6eec76-61a8-4429-9eda-b819f6d48133/LP-DESK-1-(1).jpg",
+        "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/84c4d450-beb6-4573-b300-0659d2192c1f/LP-DESK-1-(1).jpg"
+      },
+      "productCard": {
+        "sort": "price:desc",
+        "count": 4,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "692"
+          }
+        ]
+      },
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerFourCards.tsx"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "ordem": "Cards/Banner",
+      "banners": [
+        {
+          "cards": {
+            "images": []
+          },
+          "matcher": "/sherpa-drop",
+          "bannerFirst": {
+            "alt": "/sherpa-drop",
+            "href": "/sherpa-drop",
+            "type": "image",
+            "Position": "Left",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/3f4be1f5-a990-43aa-9ba6-2093c3207828",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/6fe6bae9-fe38-40cd-805e-9df22152622e"
+          },
+          "borderRadius": {
+            "mobile": "none",
+            "desktop": "none"
+          }
+        }
+      ],
+      "colorRed": false,
+      "bannerFirst": {
+        "alt": "lolife",
+        "href": "#",
+        "type": "image",
+        "Position": "Rigth",
+        "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/12ee45ba-49c7-471c-b80c-c16b8cf19b54/LP-DESK-2-(1).jpg",
+        "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/4cdd723e-269d-4c00-9ec3-c20a9b08ac8c/LP-DESK-2-(1).jpg"
+      },
+      "productCard": {
+        "sort": "release:desc",
+        "count": 4,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "692"
+          }
+        ]
+      },
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerFourCards.tsx"
+    },
+    {
+      "title": " ",
+      "colorRed": false,
+      "products": {
+        "props": {
+          "sort": "orders:desc",
+          "count": 10,
+          "collection": "692"
+        },
+        "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+      },
+      "__resolveType": "site/sections/BawProductShelf.tsx"
+    },
+    {
+      "page": {
+        "sort": "release:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "similars": false,
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "692"
+          }
+        ]
+      },
+      "columns": {
+        "mobile": 2,
+        "desktop": 4
+      },
+      "__resolveType": "site/sections/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer-Baw"
+    },
+    {
+      "__resolveType": "Default Theme"
+    }
+  ],
+  "__resolveType": "$live/pages/LivePage.tsx"
+}

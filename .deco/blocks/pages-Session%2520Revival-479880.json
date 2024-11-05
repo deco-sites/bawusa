@@ -1,0 +1,118 @@
+{
+  "name": "Session Revival",
+  "path": "/session-revival",
+  "sections": [
+    {
+      "__resolveType": "Baw Header"
+    },
+    {
+      "__resolveType": "GTM"
+    },
+    {
+      "alt": "sport-vintage",
+      "width": 1920,
+      "height": 941,
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/5d64e157-6694-4a79-ba93-2302bf562b68",
+      "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/2ec16046-47da-43b3-8e60-30a2f0f926a3/BANNER-LP-(19).jpg",
+      "preload": true,
+      "__resolveType": "site/sections/BannerFull.tsx"
+    },
+    {
+      "size": 2,
+      "cards": {
+        "productCard": [
+          {
+            "alt": "MOLETOM OVERSIZED TWIGY ",
+            "href": "/moletom-oversized-twigy-chumbo-0077150334/p",
+            "name": "MOLETOM OVERSIZED TWIGY ",
+            "size": 2,
+            "price": 219,
+            "mobile": "sim",
+            "desktop": "sim",
+            "colorRed": true,
+            "oldPrice": 439,
+            "vertical": "start",
+            "secondImg": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/b0d6ac0b-1f38-4c30-842f-e4f6eaba55a2",
+            "qtdportion": 7,
+            "srcdesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/d6acc274-aaad-4e8f-9f30-423d1d184cd4"
+          }
+        ],
+        "banner": {
+          "size": 1,
+          "type": "movie",
+          "mobile": "sim",
+          "desktop": "sim",
+          "vertical": "end",
+          "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/7f2e43b3-88b1-448d-a720-d142821e57ba/VIDEO-LP-(10).mov",
+          "sizeMobile": 2,
+          "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/29d93c4e-dc92-48f4-81d3-a28679d6dae3/VIDEO-LP-(10).mov",
+          "desalinhamento": false,
+          "desalinhamentoAltura": "margin-top--100px"
+        }
+      },
+      "ordem": "Card/Movie/Text",
+      "horizontal": "start",
+      "sizeMobile": 2,
+      "productCard": {
+        "sort": "price:desc",
+        "count": 1,
+        "fuzzy": "automatic",
+        "query": "product:2147129366",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "borderRadius": {
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerCardPosition.tsx",
+      "productCardMobileColum": true,
+      "colorRed": true
+    },
+    {
+      "__resolveType": "site/sections/SearchResult.tsx",
+      "page": {
+        "sort": "price:asc",
+        "count": 15,
+        "fuzzy": "automatic",
+        "similars": false,
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "699"
+          }
+        ]
+      },
+      "columns": {
+        "mobile": 2,
+        "desktop": 4
+      }
+    },
+    {
+      "__resolveType": "Footer-Baw"
+    },
+    {
+      "__resolveType": "Default Theme"
+    },
+    {
+      "__resolveType": "deco-sites/std/sections/SEOPLP.tsx",
+      "page": {
+        "sort": "price:desc",
+        "count": 29,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "520"
+          }
+        ]
+      },
+      "title": "Sport Vintage"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

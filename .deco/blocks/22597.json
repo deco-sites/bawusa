@@ -1,0 +1,840 @@
+{
+  "path": "/",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "$live/matchers/MatchDevice.ts",
+          "mobile": true
+        },
+        "value": [
+          {
+            "type": "website",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/e9c7d9ed-501e-4f37-9ae1-577cc8616b6f",
+            "title": "BAW CLOTHING | Moda Online",
+            "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/086aa169-d6b5-4269-9ae9-342fd14e8988",
+            "canonical": "https://www.bawclothing.com.br/",
+            "description": "We make noise, not fashion. Somos a voz do estilo sem rótulos, quebra de padrões e pura autenticidade.",
+            "__resolveType": "deco-sites/std/sections/SEO.tsx",
+            "titleTemplate": "%s | BAW Clothing"
+          },
+          {
+            "__resolveType": "Default Theme"
+          },
+          {
+            "variants": [
+              {
+                "rule": {
+                  "name": "newGtmCookie",
+                  "value": "1",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "trackingIds": [
+                    " GTM-MK5SQ692"
+                  ],
+                  "__resolveType": "deco-sites/std/sections/Analytics.tsx",
+                  "googleAnalyticsIds": [],
+                  "dangerouslyRunOnMainThread": true
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "GTM"
+                }
+              }
+            ],
+            "__resolveType": "website/flags/multivariate/section.ts"
+          },
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "alt": ".",
+            "href": "#",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/423de63b-27d2-4999-b345-d0c301720904",
+            "__resolveType": "site/sections/HeadBanner.tsx"
+          },
+          {
+            "__resolveType": "BannerFullCTA"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "site/sections/BawBanner.tsx",
+                  "title": "Banner",
+                  "banners": [
+                    {
+                      "alt": "Madrugada",
+                      "href": "/datas-sazonais/black-friday?sort=orders%3Adesc",
+                      "shrink": true,
+                      "preload": true,
+                      "size_cols": 6,
+                      "size_rows": 3,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg"
+                    },
+                    {
+                      "shrink": false,
+                      "preload": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "alt": "Black Friday Progressivo",
+                      "href": "/datas-sazonais/black-friday?sort=release%3Adesc"
+                    },
+                    {
+                      "alt": "Hello Kitty",
+                      "href": "/baw-x-hello-kitty",
+                      "shrink": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e2018a0a-b84e-482a-ae3e-fe689f0850b2/BANNER-HOME-(9).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e2018a0a-b84e-482a-ae3e-fe689f0850b2/BANNER-HOME-(9).jpg"
+                    },
+                    {
+                      "alt": "Session Revival",
+                      "href": "/session-revival",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg"
+                    },
+                    {
+                      "href": "/new-season",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/0f02687d-4348-4c72-8235-0cbcea7281e6/QUADRADO-(3).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/0f02687d-4348-4c72-8235-0cbcea7281e6/QUADRADO-(3).jpg",
+                      "alt": "New Season"
+                    }
+                  ],
+                  "borderRadius": {},
+                  "itemsPerLine": {
+                    "mobile": 1,
+                    "desktop": 10
+                  }
+                },
+                "rule": {
+                  "__resolveType": "$live/matchers/MatchDate.ts",
+                  "start": "2024-11-04T01:00:00.000Z",
+                  "end": "2024-11-04T12:00:00.000Z"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "site/sections/BawBanner.tsx",
+                  "title": "Banner",
+                  "banners": [
+                    {
+                      "alt": "Madrugada",
+                      "href": "/datas-sazonais/black-friday?sort=orders%3Adesc",
+                      "shrink": true,
+                      "preload": true,
+                      "size_cols": 6,
+                      "size_rows": 3,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg"
+                    },
+                    {
+                      "shrink": false,
+                      "preload": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "alt": "Black Friday Progressivo",
+                      "href": "/datas-sazonais/black-friday?sort=release%3Adesc"
+                    },
+                    {
+                      "alt": "Hello Kitty",
+                      "href": "/baw-x-hello-kitty",
+                      "shrink": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e2018a0a-b84e-482a-ae3e-fe689f0850b2/BANNER-HOME-(9).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e2018a0a-b84e-482a-ae3e-fe689f0850b2/BANNER-HOME-(9).jpg"
+                    },
+                    {
+                      "alt": "Session Revival",
+                      "href": "/session-revival",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg"
+                    },
+                    {
+                      "href": "/new-season",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/0f02687d-4348-4c72-8235-0cbcea7281e6/QUADRADO-(3).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/0f02687d-4348-4c72-8235-0cbcea7281e6/QUADRADO-(3).jpg",
+                      "alt": "New Season"
+                    }
+                  ],
+                  "borderRadius": {},
+                  "itemsPerLine": {
+                    "mobile": 1,
+                    "desktop": 10
+                  }
+                },
+                "rule": {
+                  "__resolveType": "$live/matchers/MatchDate.ts",
+                  "start": "2024-11-03T01:00:00.000Z",
+                  "end": "2024-11-03T12:00:00.000Z"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "site/sections/BawBanner.tsx",
+                  "title": "Banner",
+                  "banners": [
+                    {
+                      "alt": "Madrugada",
+                      "href": "/datas-sazonais/black-friday?sort=orders%3Adesc",
+                      "shrink": true,
+                      "preload": true,
+                      "size_cols": 6,
+                      "size_rows": 3,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg"
+                    },
+                    {
+                      "shrink": false,
+                      "preload": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "alt": "Black Friday Progressivo",
+                      "href": "/datas-sazonais/black-friday?sort=release%3Adesc"
+                    },
+                    {
+                      "alt": "Hello Kitty",
+                      "href": "/baw-x-hello-kitty",
+                      "shrink": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e2018a0a-b84e-482a-ae3e-fe689f0850b2/BANNER-HOME-(9).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e2018a0a-b84e-482a-ae3e-fe689f0850b2/BANNER-HOME-(9).jpg"
+                    },
+                    {
+                      "alt": "Session Revival",
+                      "href": "/session-revival",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg"
+                    },
+                    {
+                      "href": "/new-season",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/0f02687d-4348-4c72-8235-0cbcea7281e6/QUADRADO-(3).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/0f02687d-4348-4c72-8235-0cbcea7281e6/QUADRADO-(3).jpg",
+                      "alt": "New Season"
+                    }
+                  ],
+                  "borderRadius": {},
+                  "itemsPerLine": {
+                    "mobile": 1,
+                    "desktop": 10
+                  }
+                },
+                "rule": {
+                  "__resolveType": "$live/matchers/MatchDate.ts",
+                  "start": "2024-11-02T01:00:00.000Z",
+                  "end": "2024-11-02T12:00:00.000Z"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "site/sections/BawBanner.tsx",
+                  "title": "Banner",
+                  "banners": [
+                    {
+                      "alt": "Black Friday Flash SALE",
+                      "href": "/black-friday/camisetas-99",
+                      "shrink": false,
+                      "preload": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e5bc411b-3be1-412e-bfaf-87224af3075e/BANNER-BLACK-FRIDAY.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e5bc411b-3be1-412e-bfaf-87224af3075e/BANNER-BLACK-FRIDAY.jpg"
+                    },
+                    {
+                      "shrink": true,
+                      "preload": true,
+                      "size_cols": 6,
+                      "size_rows": 3,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/1b87e9de-0158-4360-b2f9-80252ccf5f1b/BANNER-BLACK-FRIDAY.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/1b87e9de-0158-4360-b2f9-80252ccf5f1b/BANNER-BLACK-FRIDAY.jpg",
+                      "alt": "Black FrIday",
+                      "href": "/datas-sazonais/black-friday?sort=orders%3Adesc"
+                    },
+                    {
+                      "alt": "Hello Kitty",
+                      "href": "/baw-x-hello-kitty",
+                      "shrink": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e2018a0a-b84e-482a-ae3e-fe689f0850b2/BANNER-HOME-(9).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e2018a0a-b84e-482a-ae3e-fe689f0850b2/BANNER-HOME-(9).jpg"
+                    },
+                    {
+                      "alt": "Session Revival",
+                      "href": "/session-revival",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg"
+                    },
+                    {
+                      "href": "/new-season",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/0f02687d-4348-4c72-8235-0cbcea7281e6/QUADRADO-(3).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/0f02687d-4348-4c72-8235-0cbcea7281e6/QUADRADO-(3).jpg",
+                      "alt": "New Season"
+                    }
+                  ],
+                  "borderRadius": {},
+                  "itemsPerLine": {
+                    "mobile": 1,
+                    "desktop": 10
+                  }
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "feature_1": {
+              "title": "Primeira",
+              "description": "Troca Grátis"
+            },
+            "feature_2": {
+              "title": "Entrega para",
+              "description": "Todo Brasil"
+            },
+            "feature_3": {
+              "title": "Frete Grátis",
+              "description": "Á partir de R$299,90"
+            },
+            "__resolveType": "site/sections/BawFeatures.tsx"
+          },
+          {
+            "title": "Lançamentos",
+            "colorRed": false,
+            "products": {
+              "props": {
+                "sort": "orders:desc",
+                "count": 12,
+                "similars": false,
+                "collection": "697",
+                "hideUnavailableItems": true
+              },
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+            },
+            "__resolveType": "site/sections/BawProductShelf.tsx"
+          },
+          {
+            "title": "Banner",
+            "__resolveType": "site/sections/BawBanner.tsx",
+            "banners": [
+              {
+                "alt": "Diadora",
+                "href": "/drop/baw-x-diadora",
+                "shrink": true,
+                "size_cols": 3,
+                "size_rows": 1,
+                "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/a16796a6-55eb-4f8a-aa42-6551dd3ace83/diadora.jpeg",
+                "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/a16796a6-55eb-4f8a-aa42-6551dd3ace83/diadora.jpeg"
+              },
+              {
+                "alt": "Slide Foam",
+                "href": "/slide-foam",
+                "shrink": true,
+                "size_cols": 3,
+                "size_rows": 1,
+                "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/6a5df2e8-afed-4dea-a047-50ece75ed1a1/BANNER-HOME.jpg",
+                "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/6a5df2e8-afed-4dea-a047-50ece75ed1a1/BANNER-HOME.jpg"
+              }
+            ],
+            "borderRadius": {},
+            "itemsPerLine": {
+              "mobile": 1,
+              "desktop": 10
+            }
+          },
+          {
+            "title": "Destaques Black Friday",
+            "__resolveType": "site/sections/BawProductShelf.tsx",
+            "colorRed": true,
+            "products": {
+              "props": {
+                "sort": "name:asc",
+                "count": 12,
+                "similars": true,
+                "collection": "640",
+                "hideUnavailableItems": true
+              },
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+            }
+          },
+          {
+            "__resolveType": "site/sections/BawHighlights.tsx",
+            "title": "Categorias",
+            "highlights": [
+              {
+                "alt": "Acessórios",
+                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/9f515944-3b43-45eb-afcb-c9e11f578cdd",
+                "href": "/baw/acessorios",
+                "label": "Acess￳rios",
+                "buttonText": "SHOP NOW"
+              },
+              {
+                "alt": "Underwear",
+                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/b6051aba-810f-4c77-a5ec-13d391acde36",
+                "href": "/baw/underwear",
+                "label": "Lançamentos",
+                "buttonText": "SHOP NOW"
+              },
+              {
+                "alt": "Calçados",
+                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/bea317a5-2df5-4ddc-8ef4-c2e8c4aae737",
+                "href": "/baw/calcados",
+                "label": "Calçados",
+                "buttonText": "SHOP NOW"
+              }
+            ]
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          }
+        ]
+      },
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "type": "website",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/e9c7d9ed-501e-4f37-9ae1-577cc8616b6f",
+            "title": "BAW CLOTHING | Moda Online",
+            "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/086aa169-d6b5-4269-9ae9-342fd14e8988",
+            "canonical": "https://www.bawclothing.com.br/",
+            "description": "We make noise, not fashion. Somos a voz do estilo sem rótulos, quebra de padrões e pura autenticidade.",
+            "__resolveType": "deco-sites/std/sections/SEO.tsx",
+            "titleTemplate": "%s | BAW Clothing"
+          },
+          {
+            "__resolveType": "Default Theme"
+          },
+          {
+            "variants": [
+              {
+                "rule": {
+                  "name": "newGtmCookie",
+                  "value": "1",
+                  "__resolveType": "website/matchers/cookie.ts"
+                },
+                "value": {
+                  "trackingIds": [
+                    " GTM-MK5SQ692"
+                  ],
+                  "__resolveType": "deco-sites/std/sections/Analytics.tsx",
+                  "googleAnalyticsIds": [],
+                  "dangerouslyRunOnMainThread": true
+                }
+              },
+              {
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                },
+                "value": {
+                  "__resolveType": "GTM"
+                }
+              }
+            ],
+            "__resolveType": "website/flags/multivariate/section.ts"
+          },
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "alt": ".",
+            "href": "#",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/423de63b-27d2-4999-b345-d0c301720904",
+            "__resolveType": "site/sections/HeadBanner.tsx"
+          },
+          {
+            "__resolveType": "BannerFullCTA"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "title": "Banner",
+                  "banners": [
+                    {
+                      "href": "/drop/baw-x-diadora",
+                      "shrink": true,
+                      "preload": true,
+                      "size_cols": 6,
+                      "size_rows": 3,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/21170e9e-4b78-46fd-955b-47e540eb8a82/BANNER-HOME-(12).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/21170e9e-4b78-46fd-955b-47e540eb8a82/BANNER-HOME-(12).jpg",
+                      "alt": "Diadora"
+                    },
+                    {
+                      "alt": "Madrugada",
+                      "href": "/datas-sazonais/black-friday?sort=orders%3Adesc",
+                      "shrink": false,
+                      "preload": false,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg"
+                    },
+                    {
+                      "alt": "Black Friday Progressivo",
+                      "href": "/datas-sazonais/black-friday?sort=release%3Adesc",
+                      "shrink": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "preload": true
+                    },
+                    {
+                      "alt": "PIMA",
+                      "href": "/pima",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/59dcb816-7fc5-4394-b62a-f3ef03111127/FEED-PIMAS.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/59dcb816-7fc5-4394-b62a-f3ef03111127/FEED-PIMAS.jpg"
+                    },
+                    {
+                      "alt": "Session Revival",
+                      "href": "/session-revival",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg"
+                    }
+                  ],
+                  "borderRadius": {},
+                  "itemsPerLine": {
+                    "mobile": 1,
+                    "desktop": 10
+                  },
+                  "__resolveType": "site/sections/BawBanner.tsx"
+                },
+                "rule": {
+                  "__resolveType": "$live/matchers/MatchDate.ts",
+                  "start": "2024-11-04T01:00:00.000Z",
+                  "end": "2024-11-04T12:00:00.000Z"
+                }
+              },
+              {
+                "value": {
+                  "title": "Banner",
+                  "banners": [
+                    {
+                      "href": "/drop/baw-x-diadora",
+                      "shrink": true,
+                      "preload": true,
+                      "size_cols": 6,
+                      "size_rows": 3,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/21170e9e-4b78-46fd-955b-47e540eb8a82/BANNER-HOME-(12).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/21170e9e-4b78-46fd-955b-47e540eb8a82/BANNER-HOME-(12).jpg",
+                      "alt": "Diadora"
+                    },
+                    {
+                      "alt": "Madrugada",
+                      "href": "/datas-sazonais/black-friday?sort=orders%3Adesc",
+                      "shrink": false,
+                      "preload": false,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg"
+                    },
+                    {
+                      "alt": "Black Friday Progressivo",
+                      "href": "/datas-sazonais/black-friday?sort=release%3Adesc",
+                      "shrink": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "preload": true
+                    },
+                    {
+                      "alt": "PIMA",
+                      "href": "/pima",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/59dcb816-7fc5-4394-b62a-f3ef03111127/FEED-PIMAS.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/59dcb816-7fc5-4394-b62a-f3ef03111127/FEED-PIMAS.jpg"
+                    },
+                    {
+                      "alt": "Session Revival",
+                      "href": "/session-revival",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg"
+                    }
+                  ],
+                  "borderRadius": {},
+                  "itemsPerLine": {
+                    "mobile": 1,
+                    "desktop": 10
+                  },
+                  "__resolveType": "site/sections/BawBanner.tsx"
+                },
+                "rule": {
+                  "__resolveType": "$live/matchers/MatchDate.ts",
+                  "start": "2024-11-03T01:00:00.000Z",
+                  "end": "2024-11-03T12:00:00.000Z"
+                }
+              },
+              {
+                "value": {
+                  "title": "Banner",
+                  "banners": [
+                    {
+                      "href": "/drop/baw-x-diadora",
+                      "shrink": true,
+                      "preload": true,
+                      "size_cols": 6,
+                      "size_rows": 3,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/21170e9e-4b78-46fd-955b-47e540eb8a82/BANNER-HOME-(12).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/21170e9e-4b78-46fd-955b-47e540eb8a82/BANNER-HOME-(12).jpg",
+                      "alt": "Diadora"
+                    },
+                    {
+                      "alt": "Madrugada",
+                      "href": "/datas-sazonais/black-friday?sort=orders%3Adesc",
+                      "shrink": false,
+                      "preload": false,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/dee3e9b9-1f37-4bb0-a7ec-9dd79cc55388/BANNER-BLACK-FRIDAY.jpg"
+                    },
+                    {
+                      "alt": "Black Friday Progressivo",
+                      "href": "/datas-sazonais/black-friday?sort=release%3Adesc",
+                      "shrink": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/60c02eb1-2a26-4140-a22f-59fdf228f7d7/BANNER-BLACK-FRIDAY-2.jpg",
+                      "preload": true
+                    },
+                    {
+                      "alt": "PIMA",
+                      "href": "/pima",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/59dcb816-7fc5-4394-b62a-f3ef03111127/FEED-PIMAS.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/59dcb816-7fc5-4394-b62a-f3ef03111127/FEED-PIMAS.jpg"
+                    },
+                    {
+                      "alt": "Session Revival",
+                      "href": "/session-revival",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg"
+                    }
+                  ],
+                  "borderRadius": {},
+                  "itemsPerLine": {
+                    "mobile": 1,
+                    "desktop": 10
+                  },
+                  "__resolveType": "site/sections/BawBanner.tsx"
+                },
+                "rule": {
+                  "__resolveType": "$live/matchers/MatchDate.ts",
+                  "start": "2024-11-02T01:00:00.000Z",
+                  "end": "2024-11-02T12:00:00.000Z"
+                }
+              },
+              {
+                "value": {
+                  "title": "Banner",
+                  "banners": [
+                    {
+                      "href": "/drop/baw-x-diadora",
+                      "shrink": true,
+                      "preload": true,
+                      "size_cols": 6,
+                      "size_rows": 3,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/21170e9e-4b78-46fd-955b-47e540eb8a82/BANNER-HOME-(12).jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/21170e9e-4b78-46fd-955b-47e540eb8a82/BANNER-HOME-(12).jpg",
+                      "alt": "Diadora"
+                    },
+                    {
+                      "alt": "Black Friday",
+                      "href": "/datas-sazonais/black-friday?sort=orders%3Adesc",
+                      "shrink": false,
+                      "preload": false,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/1b87e9de-0158-4360-b2f9-80252ccf5f1b/BANNER-BLACK-FRIDAY.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/1b87e9de-0158-4360-b2f9-80252ccf5f1b/BANNER-BLACK-FRIDAY.jpg"
+                    },
+                    {
+                      "alt": "Black Friday Flash Sale",
+                      "href": "/black-friday/camisetas-99",
+                      "shrink": true,
+                      "size_cols": 4,
+                      "size_rows": 2,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e5bc411b-3be1-412e-bfaf-87224af3075e/BANNER-BLACK-FRIDAY.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/e5bc411b-3be1-412e-bfaf-87224af3075e/BANNER-BLACK-FRIDAY.jpg",
+                      "preload": true
+                    },
+                    {
+                      "alt": "PIMA",
+                      "href": "/pima",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/59dcb816-7fc5-4394-b62a-f3ef03111127/FEED-PIMAS.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/59dcb816-7fc5-4394-b62a-f3ef03111127/FEED-PIMAS.jpg"
+                    },
+                    {
+                      "alt": "Session Revival",
+                      "href": "/session-revival",
+                      "shrink": true,
+                      "size_cols": 3,
+                      "size_rows": 1,
+                      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg",
+                      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5440d2d3-cf74-4457-8fb0-f9e41fb50cbb/QUADRADO-SESSION.jpg"
+                    }
+                  ],
+                  "borderRadius": {},
+                  "itemsPerLine": {
+                    "mobile": 1,
+                    "desktop": 10
+                  },
+                  "__resolveType": "site/sections/BawBanner.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "feature_1": {
+              "title": "Primeira",
+              "description": "Troca Grátis"
+            },
+            "feature_2": {
+              "title": "Entrega para",
+              "description": "Todo Brasil"
+            },
+            "feature_3": {
+              "title": "Frete Grátis",
+              "description": "Á partir de R$299,90"
+            },
+            "__resolveType": "site/sections/BawFeatures.tsx"
+          },
+          {
+            "title": "Lançamentos",
+            "colorRed": false,
+            "products": {
+              "props": {
+                "sort": "orders:desc",
+                "count": 12,
+                "similars": false,
+                "collection": "697",
+                "hideUnavailableItems": true
+              },
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+            },
+            "__resolveType": "site/sections/BawProductShelf.tsx"
+          },
+          {
+            "title": "Destaques Black Friday",
+            "__resolveType": "site/sections/BawProductShelf.tsx",
+            "colorRed": true,
+            "products": {
+              "props": {
+                "sort": "orders:desc",
+                "count": 12,
+                "similars": true,
+                "collection": "640",
+                "hideUnavailableItems": true
+              },
+              "__resolveType": "vtex/loaders/intelligentSearch/productList.ts"
+            }
+          },
+          {
+            "title": "Categorias",
+            "__resolveType": "site/sections/BawHighlights.tsx",
+            "highlights": [
+              {
+                "alt": "Acessórios",
+                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/9f515944-3b43-45eb-afcb-c9e11f578cdd",
+                "href": "/baw/acessorios",
+                "label": "Acess￳rios",
+                "buttonText": "SHOP NOW"
+              },
+              {
+                "alt": "Underwear",
+                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/b6051aba-810f-4c77-a5ec-13d391acde36",
+                "href": "/baw/underwear",
+                "label": "Lançamentos",
+                "buttonText": "SHOP NOW"
+              },
+              {
+                "alt": "Calçados",
+                "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/bea317a5-2df5-4ddc-8ef4-c2e8c4aae737",
+                "href": "/baw/calcados",
+                "label": "Calçados",
+                "buttonText": "SHOP NOW"
+              }
+            ]
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "$live/pages/LivePage.tsx",
+  "name": "home"
+}

@@ -1,0 +1,1 @@
+{"name":"Autenticação","path":"/conta/autenticacao","sections":[{"__resolveType":"Baw Header"},{"url":"/account#/authentication","title":"Autenticação","__resolveType":"site/sections/AuthIframe.tsx"},{"__resolveType":"Footer-Baw"},{"__resolveType":"Default Theme"}],"__resolveType":"$live/pages/LivePage.tsx"}

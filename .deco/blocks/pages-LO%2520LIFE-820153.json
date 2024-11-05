@@ -1,0 +1,172 @@
+{
+  "name": "LO LIFE",
+  "path": "/drop/lo-life",
+  "sections": [
+    {
+      "__resolveType": "Baw Header"
+    },
+    {
+      "__resolveType": "GTM"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "692"
+          }
+        ]
+      },
+      "__resolveType": "site/sections/SEOPLPBaw.tsx",
+      "titleTemplate": "Lo Life",
+      "description": "Lo Life"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "ordem": "Banner/Cards",
+      "banners": [
+        {
+          "cards": {
+            "images": []
+          },
+          "matcher": "/sherpa-drop",
+          "bannerFirst": {
+            "alt": "/sherpa-drop",
+            "href": "/sherpa-drop",
+            "type": "image",
+            "Position": "Left",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/3f4be1f5-a990-43aa-9ba6-2093c3207828",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/6fe6bae9-fe38-40cd-805e-9df22152622e"
+          },
+          "borderRadius": {
+            "mobile": "none",
+            "desktop": "none"
+          }
+        }
+      ],
+      "colorRed": false,
+      "bannerFirst": {
+        "alt": "underwear",
+        "href": "#",
+        "type": "image",
+        "Position": "Rigth",
+        "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/949b6011-083f-4831-b1e4-b739d6a5ef15/LP-DESK-1-(1).jpg",
+        "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/eafa7238-2a78-455c-9d81-fcc73e16afde/LP-DESK-1-(1).jpg"
+      },
+      "productCard": {
+        "sort": "orders:desc",
+        "count": 4,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "692"
+          }
+        ]
+      },
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerFourCards.tsx"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "ordem": "Cards/Banner",
+      "banners": [
+        {
+          "cards": {
+            "images": []
+          },
+          "matcher": "/sherpa-drop",
+          "bannerFirst": {
+            "alt": "/sherpa-drop",
+            "href": "/sherpa-drop",
+            "type": "image",
+            "Position": "Left",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/3f4be1f5-a990-43aa-9ba6-2093c3207828",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/6fe6bae9-fe38-40cd-805e-9df22152622e"
+          },
+          "borderRadius": {
+            "mobile": "none",
+            "desktop": "none"
+          }
+        }
+      ],
+      "colorRed": false,
+      "bannerFirst": {
+        "alt": "smiley",
+        "href": "#",
+        "type": "image",
+        "Position": "Rigth",
+        "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5449284c-9832-46c5-a801-0ef1e3968197/LP-DESK-2-(1).jpg",
+        "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/008bd096-c2c5-4795-90d1-db1539c86147/LP-DESK-2-(1).jpg"
+      },
+      "productCard": {
+        "sort": "price:asc",
+        "count": 4,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "692"
+          }
+        ]
+      },
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerFourCards.tsx"
+    },
+    {
+      "page": {
+        "sort": "price:asc",
+        "count": 10,
+        "fuzzy": "automatic",
+        "similars": false,
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "692"
+          }
+        ],
+        "hideUnavailableItems": false
+      },
+      "columns": {
+        "mobile": 2,
+        "desktop": 4
+      },
+      "__resolveType": "site/sections/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer-Baw"
+    },
+    {
+      "__resolveType": "Default Theme"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

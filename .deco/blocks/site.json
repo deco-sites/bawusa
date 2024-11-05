@@ -1,0 +1,94 @@
+{
+  "seo": {
+    "type": "website",
+    "title": "BAW CLOTHING | Moda Online",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/a941bc34-94d9-4add-b613-d2c022fcfe9f",
+    "description": "We make noise, not fashion. Somos a voz do estilo sem rótulos, quebra de padrões e pura autenticidade.",
+    "titleTemplate": "%s | BAW Clothing",
+    "descriptionTemplate": "%s | Deco.cx"
+  },
+  "flavor": {
+    "framework": "fresh"
+  },
+  "global": [
+    {
+      "trackingIds": [],
+      "__resolveType": "website/sections/Analytics/Analytics.tsx",
+      "googleAnalyticsIds": [],
+      "dangerouslyRunOnMainThread": true
+    },
+    {
+      "__resolveType": "analytics/sections/Analytics/DecoAnalytics.tsx",
+      "domain": "bawclothing.com.br"
+    },
+    {
+      "active": true,
+      "__resolveType": "site/sections/SetSellerCookie.tsx"
+    }
+  ],
+  "routes": [
+    {
+      "__resolveType": "website/loaders/redirects.ts"
+    },
+    {
+      "__resolveType": "website/loaders/pages.ts"
+    },
+    {
+      "__resolveType": "vtex/loaders/proxy.ts",
+      "includeSiteMap": [],
+      "extraPathsToProxy": [
+        "/blog",
+        "/blog/*",
+        "/apple-app-site-association",
+        "/apple-app-site-association/*",
+        "/.well-known/assetlinks.json",
+        "/troca-e-devolucao"
+      ],
+      "includeScriptsToHead": {
+        "includes": [
+          {
+            "__resolveType": "analytics/loaders/DecoAnalyticsScript.ts",
+            "domain": "bawclothing.com.br"
+          }
+        ],
+        "includePlausible": false
+      }
+    }
+  ],
+  "caching": {
+    "directives": []
+  },
+  "commerce": {
+    "appKey": {
+      "name": "appKey",
+      "encrypted": "0458aa5d53af81d9351d5e62f1b6c365661e90048966ae1eb701d4e218004eb3",
+      "__resolveType": "website/loaders/secret.ts"
+    },
+    "account": "bawclothing",
+    "appToken": {
+      "name": "AppToken",
+      "encrypted": "37f85f32025b50f1a8f380c5eccd6acc5f308e91632383f650d31795d6c14ec573051e6676183cf8940f11771fe0db2f2f4bb9301dcf5df6a7dae2281e0ab539a8701608f19e496839cc85b21c0e602372e350fb984832ff1f851a8eedaeff07d0189e961075228259dd5e17d93e25e809e8c1af8c6ba0f7c1d9e9e9d06bf848860462a36ac1ffea0362bc0bfcce3437",
+      "__resolveType": "website/loaders/secret.ts"
+    },
+    "platform": "vtex",
+    "publicUrl": "secure.bawclothing.com.br",
+    "salesChannel": "1",
+    "defaultSegment": {
+      "channelPrivacy": "public"
+    }
+  },
+  "abTesting": {
+    "replaces": [],
+    "includeScriptsToHead": {
+      "includes": []
+    },
+    "urlToRunAgainst": "sites-bawclothing--develop.decocdn.com",
+    "enabled": false,
+    "matcher": {
+      "__resolveType": "Test Tavano"
+    },
+    "name": "Teste AB"
+  },
+  "__resolveType": "site/apps/site.ts",
+  "firstByteThresholdMS": false
+}

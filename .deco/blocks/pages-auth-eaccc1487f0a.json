@@ -1,0 +1,1 @@
+{"name":"Auth","path":"/auth","sections":[{"__resolveType":"Baw Header"},{"url":"/login","title":"Login","__resolveType":"site/sections/AuthIframe.tsx"},{"__resolveType":"Footer-Baw"},{"__resolveType":"Default Theme"}],"__resolveType":"$live/pages/LivePage.tsx"}

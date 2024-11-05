@@ -1,0 +1,88 @@
+{
+  "name": "Black Friday - Camisetas",
+  "path": "/black-friday/camisetas",
+  "sections": [
+    {
+      "__resolveType": "Baw Header"
+    },
+    {
+      "__resolveType": "GTM"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "598"
+          }
+        ]
+      },
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/50f90009-237f-45f3-b74e-88264ab8fced",
+      "title": "Black Friday Camisetas | Baw Clothing",
+      "canonical": "https://www.bawclothing.com.br/black-friday/camisetas",
+      "description": "Confira as camisetas selecionadas para a Black Friday da Baw Clothing",
+      "__resolveType": "site/sections/SEOPLPBaw.tsx",
+      "titleTemplate": "Black Friday Camisetas | Baw Clothing"
+    },
+    {
+      "__resolveType": "Default Theme"
+    },
+    {
+      "alt": "Black Friday Camisetas",
+      "href": "/black-friday/camisetas",
+      "preload": true,
+      "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/81eb592b-d51d-43fe-bc8f-3c19e9fd4565/LP-BLACK-FRIDAY.jpg",
+      "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/81eb592b-d51d-43fe-bc8f-3c19e9fd4565/LP-BLACK-FRIDAY.jpg",
+      "__resolveType": "site/sections/HeadBanner.tsx"
+    },
+    {
+      "page": {
+        "sort": "release:desc",
+        "count": 24,
+        "fuzzy": "automatic",
+        "similars": true,
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "598"
+          }
+        ],
+        "hideUnavailableItems": true
+      },
+      "columns": {
+        "mobile": 2,
+        "desktop": 4
+      },
+      "__resolveType": "site/sections/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer-Baw"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 24,
+        "fuzzy": "automatic",
+        "query": "chenille",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "banners": [
+        {
+          "image": {
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/e940214b-7116-436d-b759-0afcab4c215d",
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/7ff26bcc-27f9-4a38-8063-5f5d62fd41be"
+          },
+          "matcher": "/drop/chenille"
+        }
+      ],
+      "__resolveType": "site/sections/BannerPLP.tsx"
+    }
+  ],
+  "__resolveType": "$live/pages/LivePage.tsx"
+}

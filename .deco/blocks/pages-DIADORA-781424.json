@@ -1,0 +1,229 @@
+{
+  "name": "DIADORA",
+  "path": "/drop/baw-x-diadora",
+  "sections": [
+    {
+      "__resolveType": "Baw Header"
+    },
+    {
+      "__resolveType": "GTM"
+    },
+    {
+      "alt": "sport-vintage",
+      "width": 1920,
+      "height": 941,
+      "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/5d64e157-6694-4a79-ba93-2302bf562b68",
+      "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/66148c9e-fadf-4b78-846e-fd906357b012/BANNER-LP-(22).jpg",
+      "preload": true,
+      "__resolveType": "site/sections/BannerFull.tsx"
+    },
+    {
+      "size": 2,
+      "cards": {
+        "productCard": [
+          {
+            "alt": "CAMISETA MANGA LONGA TWIGS ",
+            "href": "/camiseta-manga-longa-twigs-chumbo-0077156334/p",
+            "name": "CAMISETA MANGA LONGA TWIGS ",
+            "size": 2,
+            "price": 119,
+            "mobile": "sim",
+            "desktop": "sim",
+            "colorRed": true,
+            "oldPrice": 229,
+            "vertical": "start",
+            "secondImg": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/3d7e900e-a9ca-42c9-a47f-da8198b1dfdb",
+            "qtdportion": 3,
+            "srcdesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/f3f8fc43-3d47-4948-83c8-f6468de6fc8a"
+          },
+          {
+            "alt": "STRAIGHT JACKET TWIGY ",
+            "href": "/straight-jacket-twigy-preto-0077140040/p",
+            "name": "STRAIGHT JACKET TWIGY ",
+            "size": 2,
+            "price": 399,
+            "mobile": "sim",
+            "desktop": "sim",
+            "colorRed": true,
+            "oldPrice": 799,
+            "vertical": "start",
+            "secondImg": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/2c64b2a6-ba7b-415f-9a04-a9a0627d9161",
+            "qtdportion": 10,
+            "srcdesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/3d228892-03bb-47f5-a1aa-13be8b01671e"
+          }
+        ]
+      },
+      "ordem": "Card/Movie/Text",
+      "preload": false,
+      "horizontal": "end",
+      "sizeMobile": 2,
+      "productCard": {
+        "sort": "price:desc",
+        "count": 4,
+        "fuzzy": "automatic",
+        "query": "product:2147128878;2147128623",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "borderRadius": {
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerCardPosition.tsx",
+      "productCardMobileColum": true
+    },
+    {
+      "size": 2,
+      "cards": {
+        "banner": {
+          "size": 1,
+          "type": "movie",
+          "mobile": "sim",
+          "desktop": "sim",
+          "vertical": "start",
+          "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/a14bc76d-1e84-4e8d-b167-6fc3c9dfeccd/VIDEO-LP-(12).MOV",
+          "sizeMobile": 2,
+          "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/a14bc76d-1e84-4e8d-b167-6fc3c9dfeccd/VIDEO-LP-(12).MOV",
+          "desalinhamento": false,
+          "desalinhamentoAltura": "margin-top--100px"
+        },
+        "productCard": [
+          {
+            "alt": "MOLETOM OVERSIZED TWIGY ",
+            "href": "/moletom-oversized-twigy-chumbo-0077150334/p",
+            "name": "MOLETOM OVERSIZED TWIGY ",
+            "size": 2,
+            "price": 219,
+            "mobile": "sim",
+            "desktop": "sim",
+            "colorRed": true,
+            "oldPrice": 439,
+            "vertical": "start",
+            "secondImg": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/b0d6ac0b-1f38-4c30-842f-e4f6eaba55a2",
+            "qtdportion": 7,
+            "srcdesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/d6acc274-aaad-4e8f-9f30-423d1d184cd4"
+          }
+        ]
+      },
+      "ordem": "Card/Movie/Text",
+      "colorRed": false,
+      "horizontal": "start",
+      "sizeMobile": 2,
+      "productCard": {
+        "sort": "price:desc",
+        "count": 1,
+        "fuzzy": "automatic",
+        "query": "product:2147129342",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "borderRadius": {
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerCardPosition.tsx",
+      "productCardMobileColum": true
+    },
+    {
+      "size": 2,
+      "cards": {
+        "productCard": [
+          {
+            "alt": "HOODED ANORAK REAL TREE ",
+            "href": "/hooded-anorak-real-tree-marrom-0077143035/p",
+            "name": "HOODED ANORAK REAL TREE ",
+            "size": 2,
+            "price": 449,
+            "mobile": "sim",
+            "desktop": "sim",
+            "colorRed": true,
+            "oldPrice": 799,
+            "vertical": "start",
+            "secondImg": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/93f6ab92-e5fa-421c-816b-e3eec5b4b7ce",
+            "qtdportion": 10,
+            "srcdesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/1af65062-84fe-44e5-a27f-da0c3e077a29"
+          },
+          {
+            "alt": "TAILOR PANTS REAL TREE ",
+            "href": "/tailor-pants-real-tree-marrom-0077145035/p",
+            "name": "TAILOR PANTS REAL TREE ",
+            "size": 2,
+            "price": 299,
+            "mobile": "sim",
+            "desktop": "sim",
+            "colorRed": false,
+            "oldPrice": 499,
+            "vertical": "start",
+            "secondImg": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/552f275b-1689-4736-b800-c7b0ed31adce",
+            "qtdportion": 9,
+            "srcdesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/f8fd2c7a-55fb-45bb-a770-8010d4a5d367"
+          }
+        ]
+      },
+      "ordem": "Card/Movie/Text",
+      "colorRed": false,
+      "horizontal": "center",
+      "sizeMobile": 2,
+      "productCard": {
+        "sort": "price:desc",
+        "count": 2,
+        "fuzzy": "automatic",
+        "query": "product:2147128626;2147128633",
+        "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+        "selectedFacets": []
+      },
+      "borderRadius": {
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerCardPosition.tsx",
+      "productCardMobileColum": true
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 15,
+        "fuzzy": "automatic",
+        "similars": false,
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "712"
+          }
+        ]
+      },
+      "columns": {
+        "mobile": 2,
+        "desktop": 4
+      },
+      "__resolveType": "site/sections/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer-Baw"
+    },
+    {
+      "__resolveType": "Default Theme"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 29,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "520"
+          }
+        ]
+      },
+      "__resolveType": "deco-sites/std/sections/SEOPLP.tsx",
+      "title": "BAW X DIADORA",
+      "descriptionTemplate": "BAW X DIADORA",
+      "description": "BAW X DIADORA",
+      "titleTemplate": "BAW X DIADORA"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

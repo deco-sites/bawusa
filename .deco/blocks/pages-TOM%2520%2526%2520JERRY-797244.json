@@ -1,0 +1,173 @@
+{
+  "name": "TOM & JERRY",
+  "path": "/drop/baw-x-tom-e-jerry",
+  "sections": [
+    {
+      "__resolveType": "Baw Header"
+    },
+    {
+      "__resolveType": "GTM"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "514"
+          }
+        ]
+      },
+      "title": "Tom & Jerry",
+      "canonical": "https://www.bawclothing.com.br/drop/baw-x-tom-e-jerry",
+      "description": "Tom & Jerry",
+      "__resolveType": "site/sections/SEOPLPBaw.tsx",
+      "titleTemplate": "Tom & Jerry"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "ordem": "Banner/Cards",
+      "banners": [
+        {
+          "cards": {
+            "images": []
+          },
+          "matcher": "/sherpa-drop",
+          "bannerFirst": {
+            "alt": "/sherpa-drop",
+            "href": "/sherpa-drop",
+            "type": "image",
+            "Position": "Left",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/3f4be1f5-a990-43aa-9ba6-2093c3207828",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/6fe6bae9-fe38-40cd-805e-9df22152622e"
+          },
+          "borderRadius": {
+            "mobile": "none",
+            "desktop": "none"
+          }
+        }
+      ],
+      "colorRed": false,
+      "bannerFirst": {
+        "alt": "Mystical Inception",
+        "href": "#",
+        "type": "image",
+        "Position": "Rigth",
+        "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/6703e73c-17d4-4d87-a1a5-9cb5bb2f89af/LP-DESK-1-(3).jpg",
+        "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/6703e73c-17d4-4d87-a1a5-9cb5bb2f89af/LP-DESK-1-(3).jpg"
+      },
+      "productCard": {
+        "sort": "price:desc",
+        "count": 2,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "701"
+          }
+        ]
+      },
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerFourCards.tsx"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "ordem": "Cards/Banner",
+      "banners": [
+        {
+          "cards": {
+            "images": []
+          },
+          "matcher": "/sherpa-drop",
+          "bannerFirst": {
+            "alt": "/sherpa-drop",
+            "href": "/sherpa-drop",
+            "type": "image",
+            "Position": "Left",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/3f4be1f5-a990-43aa-9ba6-2093c3207828",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/6fe6bae9-fe38-40cd-805e-9df22152622e"
+          },
+          "borderRadius": {
+            "mobile": "none",
+            "desktop": "none"
+          }
+        }
+      ],
+      "colorRed": false,
+      "bannerFirst": {
+        "alt": "Mystical Inception",
+        "href": "#",
+        "type": "image",
+        "Position": "Rigth",
+        "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/d618e228-c468-4f72-9ab1-fc973161cf8d/LP-DESK-2-(2).jpg",
+        "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/d618e228-c468-4f72-9ab1-fc973161cf8d/LP-DESK-2-(2).jpg"
+      },
+      "productCard": {
+        "sort": "release:desc",
+        "count": 2,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "701"
+          }
+        ]
+      },
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerFourCards.tsx"
+    },
+    {
+      "__resolveType": "site/sections/SearchResult.tsx",
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "similars": false,
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "701"
+          }
+        ]
+      },
+      "columns": {
+        "mobile": 2,
+        "desktop": 4
+      }
+    },
+    {
+      "__resolveType": "Footer-Baw"
+    },
+    {
+      "__resolveType": "Default Theme"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

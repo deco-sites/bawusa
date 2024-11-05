@@ -1,0 +1,111 @@
+{
+  "name": "Sale Camisas",
+  "path": "/sale/camisas",
+  "sections": [
+    {
+      "__resolveType": "Default Theme"
+    },
+    {
+      "__resolveType": "Baw Header"
+    },
+    {
+      "page": {
+        "sort": "orders:desc",
+        "count": 12,
+        "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "640"
+          }
+        ],
+        "hideUnavailableItems": true
+      },
+      "title": "SALE",
+      "description": "As roupas que você ama, com descontos imperdíveis? Só mesmo na Bawlet da Baw Clothing. Confira nossas peças estilosas e modernas e garanta já a sua!",
+      "__resolveType": "deco-sites/std/sections/SEOPLP.tsx"
+    },
+    {
+      "__resolveType": "GTM"
+    },
+    {
+      "variants": [
+        {
+          "rule": {
+            "end": "2024-02-19T12:00:00.000Z",
+            "start": "2024-02-18T23:00:00.000Z",
+            "__resolveType": "$live/matchers/MatchDate.ts"
+          },
+          "value": {
+            "alt": "SALE",
+            "href": "#",
+            "preload": true,
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/f64afec7-bfc2-4ea3-a0ca-93e3ede2cc1f",
+            "showMobile": true,
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/dd215107-ad1a-4dd7-a52b-2b1438d70a29",
+            "__resolveType": "site/sections/HeadBanner.tsx"
+          }
+        },
+        {
+          "rule": {
+            "__resolveType": "website/matchers/always.ts"
+          },
+          "value": {
+            "alt": "SALE",
+            "href": "#",
+            "preload": true,
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/d715d12b-34b1-47bc-9476-f8e16f0d5d01/LP-CATEGORIAS-CAMISAS.jpg",
+            "showMobile": true,
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/03c0f7a8-a86a-4048-a095-0007bfae9654/LP-CATEGORIAS-CAMISAS.jpg",
+            "__resolveType": "site/sections/HeadBanner.tsx"
+          }
+        }
+      ],
+      "__resolveType": "website/flags/multivariate/section.ts"
+    },
+    {
+      "page": {
+        "sort": "discount:desc",
+        "@type": "1",
+        "count": 40,
+        "similars": true,
+        "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "586"
+          }
+        ],
+        "hideUnavailableItems": true
+      },
+      "columns": {},
+      "colorRed": true,
+      "__resolveType": "site/sections/SearchResult.tsx"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 24,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "452"
+          }
+        ]
+      },
+      "readMores": [
+        {
+          "content": "<h3><strong><span style=\"font-size: 14pt;\" data-mce-style=\"font-size: 14pt;\">Conheça nossas peças de streetwear infantis e juvenis!</span></strong></h3><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Aqui é o lugar para garantir as peças das crianças no estilo streetwear! Além de ter muitos modelos, como shorts, calça e camisa, existem muitas cores para os pequenos se apaixonarem — e os pais também. Seja para ficar em casa ou dar um rolê no shopping, a moda infantil da Baw®️ é confortável e estilosa, confere aí:</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Moletom</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Nada melhor do que um moletom para quando bate aquele ventinho gelado, né? As crianças também merecem essa belezinha! Os da Baw®️ são divertidos e cheios de personalidade.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Os modelos contam com bolsos canguru e capuz, dando ainda mais aconchego. A tendência colorblock está presente nas peças, que apresentam combinações de cores, variando com o salmão, lilás, azul e verde — deixam os pequenos livres e estilosos!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Camiseta</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">As camisetas são peças-chave em qualquer guarda-roupa infantil, já que são práticas e combinam com qualquer ocasião. Os tecidos 100% algodão garantem uma peça respirável e de qualidade para a rotina — dá para brincar muito por aí.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Os modelos têm manga curta e gola redonda para as crianças aproveitarem os dias com conforto. A logo da Baw®️ vem em uma estética cheia de personalidade. Mais do que isso, cor é o que não falta nas camisetas kids, que são unissex. Saca só as opções que você pode encontrar:</span></p><ul><li><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta infantil preta;</span></li><li><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta infantil off-white;</span></li><li><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta infantil lilás;</span></li><li><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta infantil azul;</span></li><li><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta infantil amarela;</span></li><li><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Camiseta infantil salmão.</span></li></ul><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">E muitas outras! Dá até para levar diversas cores para completar o armário do seu filho — do jeitinho que ele merece.</span></p><h4><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\"><strong>Camisa</strong></span></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Pensa na fofura que os pequenos ficam com as camisas da Baw®️? Os modelos contam com manga curta, botões para fechamento e bolso frontal. Ficam ótimos para ir à festa dos amiguinhos, dar um rolê na praça ou ir ao almoço de domingo na casa da vó.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">As estampas são leves e alegres, transmitindo toda a liberdade que as crianças precisam. Tem opções com folhagens, abacaxis, olhos gregos, oncinhas e muito mais. Dá para encontrar dos tamanhos 04 ao 12!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Calça</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Para quem não abre mão de uma peça mais quentinha e confortável para as crianças, as calças da Baw®️ são perfeitas! Os modelos infantis e juvenis no jogger e moletom são bem estilosos.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">As peças são feitas no tecido de algodão, dando todo aconchego que as crianças merecem. Possuem cordão para ajuste e elástico no cós. Para completar, tem um mundo de cores disponíveis: amarelo, azul, off-white, rosa, lilás, laranja e muito mais. O difícil é escolher uma só, hein?</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Shorts</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Os shorts dão muito estilo para a criançada e são muito confortáveis para sair ou para brincar. Tem opções colorblock ou de uma cor só que deixam o look bem alegre.</span></p><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Os modelos apresentam cordão para ajuste e elástico no cós, garantindo segurança na peça. Alguns shorts contam com opção de bolso, sendo bem aconchegante para os pequenos. São encontrados do tamanho 04 ao 12 — dá para aproveitar em todas as fases!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">As peças da Baw®️ Kids são unissex?</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Sim! Assim como nossa coleção adulta, a moda infantil traz essa pegada unissex. São modelos versáteis, confortáveis e estilosos que carregam essa liberdade de uso para os pequenos!</span></p><h4><strong><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">As peças da Baw®️ Kids são confeccionadas com quais tecidos?</span></strong></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">As peças da Baw®️ são confeccionadas com tecidos de qualidade que garantem o conforto para a criançada. Olha só os principais tipos:</span></p><ul><li style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Algodão;</span></li><li style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Viscose;</span></li><li style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Algodão e poliéster.</span></li></ul><h4><span style=\"font-size: 12pt;\" data-mce-style=\"font-size: 12pt;\">Quais são os tamanhos das peças da Baw®️ Kids?</span></h4><p><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Os tamanhos da Baw®️ Kids são infantojuvenis, acompanhando os pequenos em várias fases. Saca só os tamanhos disponíveis:</span></p><ul><li style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tamanho 04;</span></li><li style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tamanho 06;</span></li><li style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tamanho 08;</span></li><li style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tamanho 10;</span></li><li style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\"><span style=\"font-size: 10pt;\" data-mce-style=\"font-size: 10pt;\">Tamanho 12.</span></li></ul>",
+          "matcher": "/*"
+        }
+      ],
+      "__resolveType": "site/sections/ReadMore.tsx"
+    },
+    {
+      "__resolveType": "Footer-Baw"
+    }
+  ],
+  "__resolveType": "$live/pages/LivePage.tsx"
+}

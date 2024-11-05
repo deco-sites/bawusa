@@ -1,0 +1,193 @@
+{
+  "navItems": [
+    {
+      "href": "/baw/vestuario",
+      "label": "Vestuário",
+      "children": [
+        {
+          "href": "/baw/vestuario/partes-de-cima/camisetas",
+          "label": "Camisetas",
+          "children": []
+        },
+        {
+          "href": "/baw/vestuario/partes-de-cima/camisas",
+          "label": "Camisas",
+          "children": []
+        },
+        {
+          "href": "/baw/vestuario/partes-de-cima/jaquetas",
+          "label": "Jaquetas",
+          "children": []
+        },
+        {
+          "href": "/baw/vestuario/partes-de-cima/moletons",
+          "label": "Moletons",
+          "children": []
+        },
+        {
+          "href": "/baw/vestuario/partes-de-baixo/calcas",
+          "label": "Calças",
+          "children": []
+        },
+        {
+          "href": "/baw/vestuario/partes-de-baixo/shorts",
+          "label": "Shorts",
+          "children": []
+        },
+        {
+          "href": "/baw/underwear",
+          "label": "Underwear",
+          "children": []
+        },
+        {
+          "href": "/baw/vestuario/partes-de-cima/tops",
+          "label": "Tops",
+          "children": []
+        },
+        {
+          "href": "/baw/vestuario/partes-de-baixo/saias",
+          "label": "Saias",
+          "children": []
+        },
+        {
+          "label": "Kids",
+          "children": [],
+          "href": "/baw/vestuario/kids"
+        }
+      ],
+      "colorRed": false
+    },
+    {
+      "href": "/baw/acessorios",
+      "label": "Acessórios",
+      "children": [
+        {
+          "href": "/baw/acessorios/bags/bolsas-e-pochetes",
+          "label": "Bolsas e Pochetes",
+          "children": []
+        },
+        {
+          "href": "/baw/acessorios/headwear/bones",
+          "label": "Bonés",
+          "children": []
+        },
+        {
+          "href": "/baw/acessorios/headwear/gorros",
+          "label": "Gorros",
+          "children": []
+        },
+        {
+          "href": "/acessorios/souvenirs",
+          "label": "Souvenirs",
+          "children": []
+        }
+      ],
+      "colorRed": false
+    },
+    {
+      "href": "/baw/calcados",
+      "label": "Calçados",
+      "children": [
+        {
+          "href": "/baw/calcados/tenis",
+          "label": "Tênis",
+          "children": []
+        },
+        {
+          "href": "/baw/calcados/chinelos",
+          "label": "Chinelos",
+          "children": []
+        },
+        {
+          "href": "/baw/calcados/meias",
+          "label": "Meias",
+          "children": []
+        }
+      ],
+      "colorRed": false
+    },
+    {
+      "href": "/baw/lancamentos",
+      "label": "Lançamentos",
+      "children": [
+        {
+          "href": "/drop/baw-x-diadora",
+          "label": "DIADORA",
+          "children": [],
+          "tagAsNew": true
+        },
+        {
+          "href": "/drop/baw-x-summer-smiley",
+          "label": "SUMMER SMILEY",
+          "children": [],
+          "tagAsNew": true
+        },
+        {
+          "children": [],
+          "label": "TOM & JERRY",
+          "href": "/drop/baw-x-tom-e-jerry",
+          "tagAsNew": false
+        },
+        {
+          "children": [],
+          "label": "HELLO KITTY",
+          "href": "/drop/baw-x-hello-kitty",
+          "tagAsNew": false
+        },
+        {
+          "children": [],
+          "href": "/new-season",
+          "label": "New Season",
+          "tagAsNew": false
+        },
+        {
+          "children": [],
+          "label": "Pima",
+          "href": "/pima",
+          "tagAsNew": false
+        },
+        {
+          "children": [],
+          "label": "Lo Life",
+          "href": "/drop/lo-life",
+          "tagAsNew": false
+        },
+        {
+          "children": [],
+          "label": "Academics",
+          "href": "/drop/academics",
+          "tagAsNew": false
+        },
+        {
+          "children": [],
+          "label": "Droper",
+          "href": "/drop/baw-x-droper",
+          "tagAsNew": false
+        },
+        {
+          "children": [],
+          "label": "Starter",
+          "href": "/drop/baw-x-starter"
+        }
+      ],
+      "colorRed": false
+    },
+    {
+      "href": "/datas-sazonais/black-friday",
+      "label": "BLACK FRIDAY",
+      "children": [],
+      "colorRed": true
+    }
+  ],
+  "products": [],
+  "searchbar": {
+    "name": "q",
+    "action": "/s",
+    "placeholder": "O que você está procurando?"
+  },
+  "suggestions": {
+    "products": [],
+    "searches": []
+  },
+  "__resolveType": "site/sections/Header.tsx"
+}

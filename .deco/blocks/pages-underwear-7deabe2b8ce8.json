@@ -1,0 +1,170 @@
+{
+  "name": "Underwear",
+  "path": "/baw/underwear",
+  "sections": [
+    {
+      "__resolveType": "Baw Header"
+    },
+    {
+      "__resolveType": "GTM"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "514"
+          }
+        ]
+      },
+      "title": "Baw Underwear",
+      "canonical": "https://www.bawclothing.com.br/drop/baw-x-smiley",
+      "description": "Baw Underwear",
+      "__resolveType": "site/sections/SEOPLPBaw.tsx",
+      "titleTemplate": "Baw Underwear"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "ordem": "Banner/Cards",
+      "banners": [
+        {
+          "cards": {
+            "images": []
+          },
+          "matcher": "/sherpa-drop",
+          "bannerFirst": {
+            "alt": "/sherpa-drop",
+            "href": "/sherpa-drop",
+            "type": "image",
+            "Position": "Left",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/3f4be1f5-a990-43aa-9ba6-2093c3207828",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/6fe6bae9-fe38-40cd-805e-9df22152622e"
+          },
+          "borderRadius": {
+            "mobile": "none",
+            "desktop": "none"
+          }
+        }
+      ],
+      "colorRed": false,
+      "bannerFirst": {
+        "alt": "underwear",
+        "href": "#",
+        "type": "image",
+        "Position": "Rigth",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/25a64bfc-3c89-485d-b829-e890c8ccf117",
+        "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/d9a7500e-ffba-4e44-8b65-75727405d723"
+      },
+      "productCard": {
+        "sort": "orders:desc",
+        "count": 4,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "602"
+          }
+        ]
+      },
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerFourCards.tsx"
+    },
+    {
+      "page": {
+        "sort": "price:desc",
+        "count": 12,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": []
+      },
+      "ordem": "Cards/Banner",
+      "banners": [
+        {
+          "cards": {
+            "images": []
+          },
+          "matcher": "/sherpa-drop",
+          "bannerFirst": {
+            "alt": "/sherpa-drop",
+            "href": "/sherpa-drop",
+            "type": "image",
+            "Position": "Left",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/3f4be1f5-a990-43aa-9ba6-2093c3207828",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/6fe6bae9-fe38-40cd-805e-9df22152622e"
+          },
+          "borderRadius": {
+            "mobile": "none",
+            "desktop": "none"
+          }
+        }
+      ],
+      "colorRed": false,
+      "bannerFirst": {
+        "alt": "smiley",
+        "href": "#",
+        "type": "image",
+        "Position": "Rigth",
+        "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/06b88ade-ea77-421e-8a02-22681779997e",
+        "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/551327b0-a928-46a1-93f6-055205d195a5"
+      },
+      "productCard": {
+        "sort": "name:asc",
+        "count": 4,
+        "fuzzy": "automatic",
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "602"
+          }
+        ]
+      },
+      "borderRadius": {
+        "mobile": "none",
+        "desktop": "none"
+      },
+      "__resolveType": "site/sections/BannerFourCards.tsx"
+    },
+    {
+      "page": {
+        "sort": "price:asc",
+        "count": 10,
+        "fuzzy": "automatic",
+        "similars": false,
+        "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+        "selectedFacets": [
+          {
+            "key": "productClusterIds",
+            "value": "602"
+          }
+        ]
+      },
+      "columns": {
+        "mobile": 2,
+        "desktop": 4
+      },
+      "__resolveType": "site/sections/SearchResult.tsx"
+    },
+    {
+      "__resolveType": "Footer-Baw"
+    },
+    {
+      "__resolveType": "Default Theme"
+    }
+  ],
+  "__resolveType": "$live/pages/LivePage.tsx"
+}

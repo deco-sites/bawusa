@@ -1,0 +1,104 @@
+{
+  "name": "SALE",
+  "path": "/sale",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "__resolveType": "GTM"
+          },
+          {
+            "page": {
+              "sort": "price:desc",
+              "count": 12,
+              "fuzzy": "automatic",
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "514"
+                }
+              ]
+            },
+            "title": "SALE",
+            "canonical": "https://www.bawclothing.com.br/drop/baw-x-smiley",
+            "description": "SALE",
+            "__resolveType": "site/sections/SEOPLPBaw.tsx",
+            "titleTemplate": "SALE"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "website/flags/multivariate/section.ts",
+              "variants": [
+                {
+                  "value": {
+                    "__resolveType": "site/sections/HeadBanner.tsx",
+                    "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/fc62ef32-259f-4e5d-894c-9aa65ae0d862/LP-BAWLLOWEEN-MADRUGADA.jpg",
+                    "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/fc62ef32-259f-4e5d-894c-9aa65ae0d862/LP-BAWLLOWEEN-MADRUGADA.jpg",
+                    "alt": "SALE",
+                    "href": "#"
+                  },
+                  "rule": {
+                    "__resolveType": "$live/matchers/MatchDate.ts",
+                    "start": "2024-10-31T01:00:00.000Z",
+                    "end": "2024-10-31T12:00:00.000Z"
+                  }
+                },
+                {
+                  "value": {
+                    "__resolveType": "site/sections/HeadBanner.tsx",
+                    "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/025bc363-0e09-4ccb-b89b-0ab3cdbd9f6f/LP-LIMITEDSALE-FDS.jpg",
+                    "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/025bc363-0e09-4ccb-b89b-0ab3cdbd9f6f/LP-LIMITEDSALE-FDS.jpg",
+                    "alt": "SALE",
+                    "href": "#"
+                  },
+                  "rule": {
+                    "__resolveType": "website/matchers/always.ts"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "__resolveType": "site/sections/SearchResult.tsx",
+            "page": {
+              "sort": "orders:desc",
+              "count": 24,
+              "fuzzy": "automatic",
+              "similars": false,
+              "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "640"
+                }
+              ],
+              "hideUnavailableItems": true
+            },
+            "columns": {
+              "mobile": 2,
+              "desktop": 4
+            },
+            "colorRed": true
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          },
+          {
+            "__resolveType": "Default Theme"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "$live/pages/LivePage.tsx"
+}

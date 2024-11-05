@@ -1,0 +1,108 @@
+{
+  "name": "OD Regular",
+  "path": "/festibaw/camisetas",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "__resolveType": "GTM"
+          },
+          {
+            "page": {
+              "sort": "price:desc",
+              "count": 12,
+              "fuzzy": "automatic",
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "514"
+                }
+              ]
+            },
+            "title": "SALE",
+            "canonical": "https://www.bawclothing.com.br/drop/baw-x-smiley",
+            "description": "SALE",
+            "__resolveType": "site/sections/SEOPLPBaw.tsx",
+            "titleTemplate": "SALE"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "alt": " sale",
+                  "href": " #",
+                  "preload": true,
+                  "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/a2b00b24-41f7-4e70-a120-f026ed029a76/LP-SALE-PROGRESSIVA.jpg",
+                  "showMobile": true,
+                  "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/732adcba-e626-4701-8f47-049b40fadfcc/LP-SALE-PROGRESSIVA.jpg",
+                  "__resolveType": "site/sections/HeadBanner.tsx"
+                },
+                "rule": {
+                  "__resolveType": "$live/matchers/MatchDate.ts",
+                  "start": "2024-09-07T00:00:00.000Z",
+                  "end": "2024-09-09T15:00:00.000Z"
+                }
+              },
+              {
+                "value": {
+                  "alt": " sale",
+                  "href": " #",
+                  "preload": true,
+                  "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5481bbd9-7465-4ef9-9342-dd8b66c01b5c/LP-FESTIBAW-(1).jpg",
+                  "showMobile": true,
+                  "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/49d81ad8-fbb8-4b69-ab34-9e42c38ec3bd/LP-FESTIBAW-(1).jpg",
+                  "__resolveType": "site/sections/HeadBanner.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "page": {
+              "sort": "orders:desc",
+              "count": 24,
+              "fuzzy": "automatic",
+              "similars": false,
+              "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "696"
+                }
+              ],
+              "hideUnavailableItems": false
+            },
+            "columns": {
+              "mobile": 2,
+              "desktop": 4
+            },
+            "colorRed": true,
+            "__resolveType": "site/sections/SearchResult.tsx"
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          },
+          {
+            "__resolveType": "Default Theme"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

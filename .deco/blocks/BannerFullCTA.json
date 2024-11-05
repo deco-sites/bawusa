@@ -1,0 +1,22 @@
+{
+    "alt": "teste",
+    "title": "we make noise not fashion",
+    "Mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/29cb2931-a5e8-4e94-ae1e-a6abd3a35fa5",
+    "button": "vivenciar",
+    "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2400/cfc06619-d067-405c-a305-8a76b8abcb55",
+    "preload": false,
+    "subtitle": "Yorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "textColor": "#f1f1f1",
+    "buttonLink": "/teste1234",
+    "buttonColor": "#202020",
+    "paddingLeft": "10%",
+    "paddingRight": "10%",
+    "__resolveType": "site/sections/BannerFullWithCta.tsx",
+    "paddingBottom": "7.5%",
+    "activateButton": true,
+    "containerWidth": 1500,
+    "containerHeight": 500,
+    "buttonBackground": "#f1f1f1",
+    "isTitleUppercase": false,
+    "alignTextContainer": "end"
+}

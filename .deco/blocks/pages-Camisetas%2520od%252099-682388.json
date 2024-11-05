@@ -1,0 +1,84 @@
+{
+  "name": "Camisetas od 99",
+  "path": "/black-friday/camisetas-99",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "__resolveType": "GTM"
+          },
+          {
+            "__resolveType": "website/sections/Rendering/Lazy.tsx",
+            "section": {
+              "__resolveType": "site/sections/HeadBanner.tsx",
+              "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/4a5781a2-1a00-4b97-936b-a4efd0ab65b9/LP-BLACK-FRIDAY-(1).jpg",
+              "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/4a5781a2-1a00-4b97-936b-a4efd0ab65b9/LP-BLACK-FRIDAY-(1).jpg",
+              "showMobile": true,
+              "preload": true
+            }
+          },
+          {
+            "__resolveType": "site/sections/SEOPLPBaw.tsx",
+            "page": {
+              "sort": "price:desc",
+              "count": 12,
+              "fuzzy": "automatic",
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "715"
+                }
+              ],
+              "hideUnavailableItems": true
+            },
+            "title": "Camisetas",
+            "canonical": "https://www.bawclothing.com.br/drop/baw-x-smiley",
+            "description": "Camisetas",
+            "titleTemplate": "Camisetas"
+          },
+          {
+            "__resolveType": "site/sections/SearchResult.tsx",
+            "page": {
+              "sort": "orders:desc",
+              "count": 24,
+              "fuzzy": "automatic",
+              "similars": false,
+              "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "715"
+                }
+              ],
+              "hideUnavailableItems": false
+            },
+            "columns": {
+              "mobile": 2,
+              "desktop": 4
+            },
+            "colorRed": true
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          },
+          {
+            "__resolveType": "Default Theme"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

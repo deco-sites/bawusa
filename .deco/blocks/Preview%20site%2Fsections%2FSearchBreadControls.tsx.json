@@ -1,0 +1,16 @@
+{
+  "__resolveType": "site/sections/SearchBreadControls.tsx",
+  "page": {
+    "@type": "ProductListingPage",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": []
+    },
+    "filters": [],
+    "products": [],
+    "pageInfo": {
+      "pageTypes": []
+    },
+    "sortOptions": []
+  }
+}

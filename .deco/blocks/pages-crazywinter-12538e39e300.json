@@ -1,0 +1,255 @@
+{
+  "name": "Crazy Winter",
+  "path": "/datas-sazonais/crazy-winter",
+  "sections": {
+    "__resolveType": "$live/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "Default Theme"
+          },
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "page": {
+              "count": 12,
+              "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "452"
+                }
+              ]
+            },
+            "title": "Moletom, Camiseta e Calça Infantil e Juvenil - BAW Kids",
+            "description": "Procurando peças estilosas no streetwear infantil? A seleção da BAW conta com moletom infantil, camisa, shorts, camiseta e mais. Aproveita!",
+            "__resolveType": "deco-sites/std/sections/SEOPLP.tsx"
+          },
+          {
+            "__resolveType": "GTM"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "rule": {},
+                "value": {}
+              },
+              {
+                "value": {
+                  "alt": "kids",
+                  "href": "/baw/vestuario/kids",
+                  "title": "Crazy Winter: a Black Friday de inverno da Baw ®️",
+                  "subtitle": "A Crazy Winter do ano passado foi incrível, e a gente decidiu repetir a dose. Então, pegue o cartão e se prepare, porque o seu momento de brilhar chegou!  A Black Friday de inverno vai dar desconto para geral aproveitar a época do ano que te deixa mais estiloso (e confortável). Aqui você encontra MUITAS peças queridinhas com descontos de até 80% OFF!  Mas corra para fechar logo o carrinho, porque senão você vai ficar sem suas peças Baw Clothing preferidas. Estão avisados. 😎",
+                  "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/33fee143-8a68-4e4a-bfff-8b753df8afbc",
+                  "showMobile": true,
+                  "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/08b01698-3749-4f68-9035-119ef1e9ac47",
+                  "__resolveType": "site/sections/HeadBanner.tsx"
+                }
+              },
+              {
+                "value": {
+                  "alt": "kids",
+                  "href": "/baw/vestuario/kids",
+                  "title": "Crazy Winter: a Black Friday de inverno da Baw ®️",
+                  "subtitle": "A Crazy Winter do ano passado foi incrível, e a gente decidiu repetir a dose. Então, pegue o cartão e se prepare, porque o seu momento de brilhar chegou!  A Black Friday de inverno vai dar desconto para geral aproveitar a época do ano que te deixa mais estiloso (e confortável). Aqui você encontra MUITAS peças queridinhas com descontos de até 80% OFF!  Mas corra para fechar logo o carrinho, porque senão você vai ficar sem suas peças Baw Clothing preferidas. Estão avisados. 😎",
+                  "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/33fee143-8a68-4e4a-bfff-8b753df8afbc",
+                  "showMobile": true,
+                  "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/08b01698-3749-4f68-9035-119ef1e9ac47",
+                  "__resolveType": "site/sections/HeadBanner.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "page": {
+                    "sort": "release:desc",
+                    "@type": "1",
+                    "count": 24,
+                    "similars": true,
+                    "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+                    "selectedFacets": [
+                      {
+                        "key": "productClusterIds",
+                        "value": "540"
+                      }
+                    ],
+                    "hideUnavailableItems": true
+                  },
+                  "columns": {},
+                  "__resolveType": "site/sections/SearchResult.tsx"
+                }
+              },
+              {
+                "value": {
+                  "page": {
+                    "sort": "release:desc",
+                    "@type": "1",
+                    "count": 24,
+                    "similars": true,
+                    "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+                    "selectedFacets": [
+                      {
+                        "key": "productClusterIds",
+                        "value": "540"
+                      }
+                    ],
+                    "hideUnavailableItems": true
+                  },
+                  "columns": {},
+                  "__resolveType": "site/sections/SearchResult.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          },
+          {
+            "page": {
+              "sort": "price:asc",
+              "count": 24,
+              "fuzzy": "automatic",
+              "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "540"
+                }
+              ]
+            },
+            "readMores": [
+              {
+                "content": "<h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\">Promo de inverno da Baw ®️: jaquetas, camisetas e mais</h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Os produtos que vocês mais nos pedem (de todas as categorias) estão com até 80% de desconto.&nbsp;<span class=\"b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--search__seo--text\">É promo no site todo para vocês aproveitarem!</span></p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/moletons\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/moletons\">Moletons Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Os mais quentinhos e confortáveis! Você encontra moletons com e sem capuz, com e sem bolso, estilo raglan, com botões, pouca ou muita estampa, de pelinhos e em todas as cores para colecionar.</p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/jaquetas\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/jaquetas\">Jaquetas Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Aqui você encontra desde o&nbsp;<span class=\"b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--search__seo--text\">anorak e o corta vento mais estiloso</span>&nbsp;até os jeans e os super gostosos de serem usados a todo momento: os de tecido de pelinho. Modelos no preto, verde, marrom, roxo, rosa, amarelo, cinza e muito mais.</p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/calcas\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/calcas\">Calças Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Não importa se você é do street ou do comfy, tem uma calça em promoção para você. Quer modelos com botão e zíper? Com elástico na cintura? Com cordão para ajustar? Jogger? Cargo? Lisas? Estampadas? Temos todas elas!</p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">São vários modelos de cintura baixa a alta e vários tecidos para combinar com o seu estilo, sendo calças em 100% algodão, moletom, jeans e mais. Também temos várias cores de calças para combinar: preto, bege, off white, roxo, verde, rosa, marrom, cinza, branco e muitas outras.</p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/camisetas\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/camisetas\">Camisetas Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Se tem uma peça que combina com absolutamente tudo e com todos os estilos é a camiseta. Está precisando (ou querendo) renovar seu estoque? Vem para a Crazy Winter da Baw®️!</p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">São opções de manga curta, manga longa, cropped e oversized para todas as produções que quiser montar. Desde os modelos mais versáteis e essenciais de se ter em qualquer guarda-roupa até aqueles com as estampas mais diferentes para se destacar na sua roda.</p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/camisas\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/camisas\">Camisas Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Sem dúvida nenhuma, as camisas são os nossos xodós. São várias cores e estampas para escolher a sua preferida e arrasar tanto no estilo clássico quanto no mais criativo.</p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/acessorios\" data-mce-href=\"https://www.bawclothing.com.br/baw/acessorios\">Acessórios Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Pensou que parava por aí? Então, você está muito enganado. Tem&nbsp;<span class=\"b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--search__seo--text\">boné, bolsa e pochete com desconto na Black Friday de inverno</span>&nbsp;também. Qual vai querer?</p><h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\">Quais são as tendências de roupas para o inverno de 2023?</h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Como todo inverno, os tons terrosos estão super em alta — e a lã também não pode faltar. Mas tem mais coisa boa: seda, veludo, metalizado e sarja são as outras apostas de tecidos da estação.</p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Em quesito modelos, as saias midi jeans, calças cargo, calças retas, bermudas e jaquetas oversized estão disparados quando o assunto é tendência.</p><h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\">Como montar looks trends para o inverno?</h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Brinque com as proporções e os tecidos diferentes! Combine uma bermuda com moletom ou até uma jaqueta oversized, com meia na canela e tênis — não tem como não arrasar assim!</p><h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\">Como combinar visuais usando moletom?</h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Experimente os&nbsp;<span class=\"b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--search__seo--text\">agasalhos cropped com calça wide leg</span>, os tradicionais de capuz e bolso canguru com shorts do mesmo tecido e até uma calça mais curtinha com o modelo careca.</p><h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\">Que tipo de calça usar no inverno?</h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">As calças de moletom são ótimas para os dias mais frios, mas as calças retas e de modelo jogger são perfeitas para sair com os amigos e estar sempre confortável e estiloso.</p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Aproveite para dar uma conferida nos&nbsp;<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/calcados\" data-mce-href=\"https://www.bawclothing.com.br/baw/calcados\">calçados</a> mais massas do nosso catálogo para sair com o look inteiro novo.</p>",
+                "matcher": "/datas-sazonais/crazy-winter/*"
+              }
+            ],
+            "__resolveType": "site/sections/ReadMore.tsx"
+          }
+        ]
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "Default Theme"
+          },
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "page": {
+              "count": 12,
+              "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "452"
+                }
+              ]
+            },
+            "title": "Moletom, Camiseta e Calça Infantil e Juvenil - BAW Kids",
+            "description": "Procurando peças estilosas no streetwear infantil? A seleção da BAW conta com moletom infantil, camisa, shorts, camiseta e mais. Aproveita!",
+            "__resolveType": "deco-sites/std/sections/SEOPLP.tsx"
+          },
+          {
+            "__resolveType": "GTM"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "rule": {},
+                "value": {}
+              },
+              {
+                "value": {
+                  "alt": "kids",
+                  "href": "/baw/vestuario/kids",
+                  "title": "Crazy Winter: a Black Friday de inverno da Baw ®️",
+                  "subtitle": "A Crazy Winter do ano passado foi incrível, e a gente decidiu repetir a dose. Então, pegue o cartão e se prepare, porque o seu momento de brilhar chegou!  A Black Friday de inverno vai dar desconto para geral aproveitar a época do ano que te deixa mais estiloso (e confortável). Aqui você encontra MUITAS peças queridinhas com descontos de até 80% OFF!  Mas corra para fechar logo o carrinho, porque senão você vai ficar sem suas peças Baw Clothing preferidas. Estão avisados. 😎",
+                  "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/33fee143-8a68-4e4a-bfff-8b753df8afbc",
+                  "showMobile": true,
+                  "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/08b01698-3749-4f68-9035-119ef1e9ac47",
+                  "__resolveType": "site/sections/HeadBanner.tsx"
+                }
+              },
+              {
+                "value": {
+                  "alt": "kids",
+                  "href": "/baw/vestuario/kids",
+                  "title": "Crazy Winter: a Black Friday de inverno da Baw ®️",
+                  "subtitle": "A Crazy Winter do ano passado foi incrível, e a gente decidiu repetir a dose. Então, pegue o cartão e se prepare, porque o seu momento de brilhar chegou!  A Black Friday de inverno vai dar desconto para geral aproveitar a época do ano que te deixa mais estiloso (e confortável). Aqui você encontra MUITAS peças queridinhas com descontos de até 80% OFF!  Mas corra para fechar logo o carrinho, porque senão você vai ficar sem suas peças Baw Clothing preferidas. Estão avisados. 😎",
+                  "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/33fee143-8a68-4e4a-bfff-8b753df8afbc",
+                  "showMobile": true,
+                  "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1285/08b01698-3749-4f68-9035-119ef1e9ac47",
+                  "__resolveType": "site/sections/HeadBanner.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "page": {
+              "sort": "release:desc",
+              "@type": "1",
+              "count": 24,
+              "similars": true,
+              "__resolveType": "deco-sites/std/functions/vtexProductListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "540"
+                }
+              ],
+              "hideUnavailableItems": true
+            },
+            "columns": {},
+            "__resolveType": "site/sections/SearchResult.tsx"
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          },
+          {
+            "page": {
+              "sort": "price:asc",
+              "count": 24,
+              "fuzzy": "automatic",
+              "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "540"
+                }
+              ]
+            },
+            "readMores": [
+              {
+                "content": "<h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\">Promo de inverno da Baw ®️: jaquetas, camisetas e mais</h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Os produtos que vocês mais nos pedem (de todas as categorias) estão com até 80% de desconto.&nbsp;<span class=\"b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--search__seo--text\">É promo no site todo para vocês aproveitarem!</span></p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/moletons\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/moletons\">Moletons Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Os mais quentinhos e confortáveis! Você encontra moletons com e sem capuz, com e sem bolso, estilo raglan, com botões, pouca ou muita estampa, de pelinhos e em todas as cores para colecionar.</p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/jaquetas\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/jaquetas\">Jaquetas Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Aqui você encontra desde o&nbsp;<span class=\"b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--search__seo--text\">anorak e o corta vento mais estiloso</span>&nbsp;até os jeans e os super gostosos de serem usados a todo momento: os de tecido de pelinho. Modelos no preto, verde, marrom, roxo, rosa, amarelo, cinza e muito mais.</p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/calcas\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-baixo/calcas\">Calças Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Não importa se você é do street ou do comfy, tem uma calça em promoção para você. Quer modelos com botão e zíper? Com elástico na cintura? Com cordão para ajustar? Jogger? Cargo? Lisas? Estampadas? Temos todas elas!</p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">São vários modelos de cintura baixa a alta e vários tecidos para combinar com o seu estilo, sendo calças em 100% algodão, moletom, jeans e mais. Também temos várias cores de calças para combinar: preto, bege, off white, roxo, verde, rosa, marrom, cinza, branco e muitas outras.</p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/camisetas\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/camisetas\">Camisetas Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Se tem uma peça que combina com absolutamente tudo e com todos os estilos é a camiseta. Está precisando (ou querendo) renovar seu estoque? Vem para a Crazy Winter da Baw®️!</p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">São opções de manga curta, manga longa, cropped e oversized para todas as produções que quiser montar. Desde os modelos mais versáteis e essenciais de se ter em qualquer guarda-roupa até aqueles com as estampas mais diferentes para se destacar na sua roda.</p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/camisas\" data-mce-href=\"https://www.bawclothing.com.br/baw/vestuario/partes-de-cima/camisas\">Camisas Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Sem dúvida nenhuma, as camisas são os nossos xodós. São várias cores e estampas para escolher a sua preferida e arrasar tanto no estilo clássico quanto no mais criativo.</p><h3 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-3 vtex-rich-text-0-x-headingLevel3 vtex-rich-text-0-x-headingLevel3--search__seo--text vtex-rich-text-0-x-heading-level-3\"><a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/acessorios\" data-mce-href=\"https://www.bawclothing.com.br/baw/acessorios\">Acessórios Baw ®️</a></h3><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Pensou que parava por aí? Então, você está muito enganado. Tem&nbsp;<span class=\"b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--search__seo--text\">boné, bolsa e pochete com desconto na Black Friday de inverno</span>&nbsp;também. Qual vai querer?</p><h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\">Quais são as tendências de roupas para o inverno de 2023?</h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Como todo inverno, os tons terrosos estão super em alta — e a lã também não pode faltar. Mas tem mais coisa boa: seda, veludo, metalizado e sarja são as outras apostas de tecidos da estação.</p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Em quesito modelos, as saias midi jeans, calças cargo, calças retas, bermudas e jaquetas oversized estão disparados quando o assunto é tendência.</p><h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\">Como montar looks trends para o inverno?</h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Brinque com as proporções e os tecidos diferentes! Combine uma bermuda com moletom ou até uma jaqueta oversized, com meia na canela e tênis — não tem como não arrasar assim!</p><h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\">Como combinar visuais usando moletom?</h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Experimente os&nbsp;<span class=\"b vtex-rich-text-0-x-strong vtex-rich-text-0-x-strong--search__seo--text\">agasalhos cropped com calça wide leg</span>, os tradicionais de capuz e bolso canguru com shorts do mesmo tecido e até uma calça mais curtinha com o modelo careca.</p><h2 class=\"vtex-rich-text-0-x-heading vtex-rich-text-0-x-heading--search__seo--text t-heading-2 vtex-rich-text-0-x-headingLevel2 vtex-rich-text-0-x-headingLevel2--search__seo--text vtex-rich-text-0-x-heading-level-2\">Que tipo de calça usar no inverno?</h2><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">As calças de moletom são ótimas para os dias mais frios, mas as calças retas e de modelo jogger são perfeitas para sair com os amigos e estar sempre confortável e estiloso.</p><p class=\"lh-copy vtex-rich-text-0-x-paragraph vtex-rich-text-0-x-paragraph--search__seo--text\">Aproveite para dar uma conferida nos&nbsp;<a class=\"vtex-rich-text-0-x-link vtex-rich-text-0-x-link--search__seo--text\" href=\"https://www.bawclothing.com.br/baw/calcados\" data-mce-href=\"https://www.bawclothing.com.br/baw/calcados\">calçados</a> mais massas do nosso catálogo para sair com o look inteiro novo.</p>",
+                "matcher": "/datas-sazonais/crazy-winter/*"
+              }
+            ],
+            "__resolveType": "site/sections/ReadMore.tsx"
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        }
+      }
+    ]
+  },
+  "__resolveType": "$live/pages/LivePage.tsx"
+}

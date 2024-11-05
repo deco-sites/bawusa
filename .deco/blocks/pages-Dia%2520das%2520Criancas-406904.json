@@ -1,0 +1,108 @@
+{
+  "name": "Dia das Criancas",
+  "path": "/dia-das-criancas",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "__resolveType": "GTM"
+          },
+          {
+            "page": {
+              "sort": "price:desc",
+              "count": 12,
+              "fuzzy": "automatic",
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "514"
+                }
+              ]
+            },
+            "title": "SALE",
+            "canonical": "https://www.bawclothing.com.br/drop/baw-x-smiley",
+            "description": "SALE",
+            "__resolveType": "site/sections/SEOPLPBaw.tsx",
+            "titleTemplate": "SALE"
+          },
+          {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "alt": " sale",
+                  "href": " #",
+                  "preload": true,
+                  "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/12f7b295-0c4d-4d42-9520-a6c4f0c53743/LP-FLASH-BAWTLET-(1).jpg",
+                  "showMobile": true,
+                  "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/12f7b295-0c4d-4d42-9520-a6c4f0c53743/LP-FLASH-BAWTLET-(1).jpg",
+                  "__resolveType": "site/sections/HeadBanner.tsx"
+                },
+                "rule": {
+                  "__resolveType": "$live/matchers/MatchDate.ts",
+                  "start": "2024-10-02T01:00:00.000Z",
+                  "end": "2024-10-02T12:00:00.000Z"
+                }
+              },
+              {
+                "value": {
+                  "alt": " sale",
+                  "href": " #",
+                  "preload": true,
+                  "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/9852b452-fc6e-454d-a700-935e3134f3d4/LP-BAW_DIADASCRIANCA_BANNERS.jpg",
+                  "showMobile": true,
+                  "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/9852b452-fc6e-454d-a700-935e3134f3d4/LP-BAW_DIADASCRIANCA_BANNERS.jpg",
+                  "__resolveType": "site/sections/HeadBanner.tsx"
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/always.ts"
+                }
+              }
+            ]
+          },
+          {
+            "page": {
+              "sort": "orders:desc",
+              "count": 24,
+              "fuzzy": "automatic",
+              "similars": false,
+              "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "704"
+                }
+              ],
+              "hideUnavailableItems": false
+            },
+            "columns": {
+              "mobile": 2,
+              "desktop": 4
+            },
+            "colorRed": true,
+            "__resolveType": "site/sections/SearchResult.tsx"
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          },
+          {
+            "__resolveType": "Default Theme"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

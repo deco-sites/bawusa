@@ -1,0 +1,73 @@
+{
+  "name": "Moletom 199",
+  "path": "/black-friday/moletom-199",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "__resolveType": "GTM"
+          },
+          {
+            "page": {
+              "sort": "price:desc",
+              "count": 12,
+              "fuzzy": "automatic",
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "714"
+                }
+              ]
+            },
+            "title": "Moletom 199",
+            "canonical": "https://www.bawclothing.com.br/drop/baw-x-smiley",
+            "description": "Moletom 199",
+            "__resolveType": "site/sections/SEOPLPBaw.tsx",
+            "titleTemplate": "Moletom 199"
+          },
+          {
+            "__resolveType": "site/sections/SearchResult.tsx",
+            "page": {
+              "sort": "orders:desc",
+              "count": 24,
+              "fuzzy": "automatic",
+              "similars": false,
+              "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "714"
+                }
+              ],
+              "hideUnavailableItems": true
+            },
+            "columns": {
+              "mobile": 2,
+              "desktop": 4
+            },
+            "colorRed": true
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          },
+          {
+            "__resolveType": "Default Theme"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

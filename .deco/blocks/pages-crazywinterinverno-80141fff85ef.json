@@ -1,0 +1,81 @@
+{
+  "name": "SALE INVERNO 24",
+  "path": "/sale/inverno",
+  "sections": {
+    "variants": [
+      {
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
+        },
+        "value": [
+          {
+            "__resolveType": "Baw Header"
+          },
+          {
+            "__resolveType": "GTM"
+          },
+          {
+            "page": {
+              "sort": "price:desc",
+              "count": 12,
+              "fuzzy": "enabled",
+              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "683"
+                }
+              ],
+              "hideUnavailableItems": true
+            },
+            "title": "SALE",
+            "canonical": "https://www.bawclothing.com.br/sale/inverno",
+            "description": "SALE",
+            "__resolveType": "site/sections/SEOPLPBaw.tsx",
+            "titleTemplate": "SALE"
+          },
+          {
+            "alt": " Crazy Week",
+            "href": "#",
+            "title": " ",
+            "preload": false,
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/8564877b-4f7f-4c93-8b26-c75d93042a0d/LP-L3P2.jpg",
+            "showMobile": true,
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/bawclothing/5fecce16-3fba-4567-be06-ed332361c5a6/LP-L3P2.jpg",
+            "__resolveType": "site/sections/HeadBanner.tsx"
+          },
+          {
+            "page": {
+              "sort": "orders:desc",
+              "count": 24,
+              "fuzzy": "automatic",
+              "similars": false,
+              "__resolveType": "deco-sites/std/loaders/vtex/intelligentSearch/productListingPage.ts",
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "683"
+                }
+              ],
+              "hideUnavailableItems": true
+            },
+            "columns": {
+              "mobile": 2,
+              "desktop": 4
+            },
+            "colorRed": true,
+            "__resolveType": "site/sections/SearchResult.tsx"
+          },
+          {
+            "__resolveType": "Footer-Baw"
+          },
+          {
+            "__resolveType": "Default Theme"
+          }
+        ]
+      }
+    ],
+    "__resolveType": "website/flags/multivariate.ts"
+  },
+  "__resolveType": "$live/pages/LivePage.tsx"
+}
