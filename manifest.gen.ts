@@ -7,7 +7,8 @@ import * as $$$$$$$$$1 from "./actions/putCouponInOrderForm.ts";
 import * as $$$$$$$$$2 from "./actions/removeCouponInOrderForm.ts";
 import * as $$$$$$$$$3 from "./actions/sendClientEmail.ts";
 import * as $$$$$$$$$$$0 from "./apps/analytics.ts";
-import * as $$$$$$$$$$$1 from "./apps/site.ts";
+import * as $$$$$$$$$$$1 from "./apps/deco/vtex.ts";
+import * as $$$$$$$$$$$2 from "./apps/site.ts";
 import * as $$$$0 from "./handlers/vtexProxyForAbTest.ts";
 import * as $$$0 from "./loaders/getPickupPointsByCep.ts";
 import * as $$$1 from "./loaders/getPickupPointsByStateGql.ts";
@@ -104,7 +105,8 @@ const manifest = {
   },
   "apps": {
     "site/apps/analytics.ts": $$$$$$$$$$$0,
-    "site/apps/site.ts": $$$$$$$$$$$1,
+    "site/apps/deco/vtex.ts": $$$$$$$$$$$1,
+    "site/apps/site.ts": $$$$$$$$$$$2,
   },
   "name": "site",
   "baseUrl": import.meta.url,

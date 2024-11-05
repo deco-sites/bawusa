@@ -2,31 +2,31 @@
   "navItems": [
     {
       "href": "/baw/vestuario",
-      "label": "Vestuário",
+      "label": "Clothing",
       "children": [
         {
           "href": "/baw/vestuario/partes-de-cima/camisetas",
-          "label": "Camisetas",
+          "label": "T-shirts",
           "children": []
         },
         {
           "href": "/baw/vestuario/partes-de-cima/camisas",
-          "label": "Camisas",
+          "label": "Shirts",
           "children": []
         },
         {
           "href": "/baw/vestuario/partes-de-cima/jaquetas",
-          "label": "Jaquetas",
+          "label": "Jackets",
           "children": []
         },
         {
           "href": "/baw/vestuario/partes-de-cima/moletons",
-          "label": "Moletons",
+          "label": "Sweatshirts",
           "children": []
         },
         {
           "href": "/baw/vestuario/partes-de-baixo/calcas",
-          "label": "Calças",
+          "label": "Pants",
           "children": []
         },
         {
@@ -46,7 +46,7 @@
         },
         {
           "href": "/baw/vestuario/partes-de-baixo/saias",
-          "label": "Saias",
+          "label": "Skirts",
           "children": []
         },
         {
@@ -59,21 +59,21 @@
     },
     {
       "href": "/baw/acessorios",
-      "label": "Acessórios",
+      "label": "Accessories",
       "children": [
         {
           "href": "/baw/acessorios/bags/bolsas-e-pochetes",
-          "label": "Bolsas e Pochetes",
+          "label": "Bags and Fanny Packs",
           "children": []
         },
         {
           "href": "/baw/acessorios/headwear/bones",
-          "label": "Bonés",
+          "label": "Caps",
           "children": []
         },
         {
           "href": "/baw/acessorios/headwear/gorros",
-          "label": "Gorros",
+          "label": "Hats",
           "children": []
         },
         {
@@ -86,21 +86,21 @@
     },
     {
       "href": "/baw/calcados",
-      "label": "Calçados",
+      "label": "Footwear",
       "children": [
         {
           "href": "/baw/calcados/tenis",
-          "label": "Tênis",
+          "label": "Tennis",
           "children": []
         },
         {
           "href": "/baw/calcados/chinelos",
-          "label": "Chinelos",
+          "label": "Tennis",
           "children": []
         },
         {
           "href": "/baw/calcados/meias",
-          "label": "Meias",
+          "label": "Socks",
           "children": []
         }
       ],
@@ -108,7 +108,7 @@
     },
     {
       "href": "/baw/lancamentos",
-      "label": "Lançamentos",
+      "label": "Releases",
       "children": [
         {
           "href": "/drop/baw-x-diadora",
@@ -183,7 +183,7 @@
   "searchbar": {
     "name": "q",
     "action": "/s",
-    "placeholder": "O que você está procurando?"
+    "placeholder": "What are you looking for?"
   },
   "suggestions": {
     "products": [],
